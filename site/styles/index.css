@@ -1,0 +1,85 @@
+#splashDiv {
+    height: 80vh;
+    min-height: 400px;
+    text-align: center;
+    
+    position: relative;
+    
+    background-color: white;
+}
+
+#logoDiv {
+    width: 100%;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#logo {
+    width: 80%;
+    max-width: 500px;
+    
+    margin-bottom: 15px;
+}
+#logoDiv p {
+    margin-bottom: 0;
+}
+
+/**/
+/*Theme Launch*/
+/**/
+#themeLaunchDiv {
+    background: -webkit-linear-gradient(transparent, transparent),
+                 url(../images/themeBG-party.jpg) no-repeat;
+/*    background-image: ;*/
+    background-size: cover;
+    background-attachment: fixed;
+    
+    position: relative;
+}
+
+.themeLaunchTitle {
+    font-size: 2.2em;
+    position: absolute;
+}
+#themeText {
+    left: 30%;
+    top: 30%;
+}
+#launchText {
+    right: 15%;
+    bottom: 30%;
+}
+#themeLaunchText {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 3em;
+}
+
+/**/
+/*Interplay*/
+/**/
+#interplayDiv {
+    background-color: white;
+}
+#interplayIcon {
+    display: block;
+    margin: 0 auto;
+    padding-top: 140px;
+    margin-bottom: 80px;
+    
+/*  needs to be 69.356% of logo width, since logo has empty left side and trailing right text */
+    width: calc(.69356 * 60%);
+    max-width: calc(.69356 * 600px);
+}
+#interplayQuote {
+    font-size: 1.4em;
+    width: 240px;
+    
+    margin-bottom: 30px;
+    
+    color: #00B5AD;
+}

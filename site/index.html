@@ -1,0 +1,81 @@
+<!--
+KNOWN BUGS:
+    - pixel rounding issue at some widths causes thin line above and below #themeLaunchDiv to show background image
+    - When opening slide menu, sometimes text can get rearranged/pushed to new lines (I think this is because of the 1px border that gets added on the right)
+-->
+
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BWxD 2016</title>
+    
+    <link type="text/css" href="styles/general.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/typefaces.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/index.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/slideout.css" rel="stylesheet" ></link>
+
+<!--    JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav id="menu" class="menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="sponsors.html">SPONSORS</a></li>
+        </ul>
+    </nav>
+    
+    <div id="navbarDiv">
+        <a href="index.html"><img id="navbarLogo" src="images/logo-icon-blue.svg" /></a>
+
+        <ul class="desktopOnly">
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="sponsors.html">SPONSORS</a></li>
+        </ul>
+
+        <button id="hamburger" class="mobileOnly toggle-button js-slideout-toggle"></button>
+    </div>
+    
+    <main id="panel">
+        <div id="content">
+            <div id="splashDiv">
+                <div id="logoDiv">
+                    <img id="logo" src="images/logo-full.svg" />
+                    <p id="logoSubtitle">September 23<sup>rd</sup>–25<sup>th</sup></p>
+                </div>
+            </div>
+
+            <div id="themeLaunchDiv">
+                <h3 id="themeText" class="themeLaunchTitle mobileOnly">THEME</h3>
+                <h3 id="launchText" class="themeLaunchTitle mobileOnly">LAUNCH</h3>
+                <h3 id="themeLaunchText" class="themeLaunchTitle desktopOnly">THEME LAUNCH</h3>
+
+                <img id="themeLaunchCover-mobile" class="mobileOnly" src="images/themeLaunchCover-mobile.svg" />
+                <img id="themeLaunchCover-desktop" class="desktopOnly" src="images/themeLaunchCover-desktop.svg" />
+            </div>
+
+            <div id="interplayDiv">
+                <img id="interplayIcon" src="images/interplay.svg" />
+
+                <div class="textContent">
+                    <p id="interplayQuote">
+                        “The way in which two or more things have an effect on each other when they happen or exist together.”
+                    </p>
+
+                    <p id="interplayExplanation">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor aliquam urna, nec tincidunt mi iaculis eu. Mauris aliquet efficitur aliquet. Donec hendrerit dolor vitae malesuada vestibulum. Fusce dui lorem, sagittis in rhoncus quis, pretium ut ex. Vestibulum volutpat venenatis risus nec dictum. Phasellus placerat lectus nec consectetur vestibulum. Phasellus tempus vel massa et bibendum. Morbi nibh eros, viverra id aliquam vitae, ullamcorper et est. Donec porta nisi a nisi malesuada, eu feugiat odio vestibulum. Proin a est et enim consectetur commodo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="scripts/layout.js"></script>
+<script src="scripts/slideout.min.js"></script>
+<script src="scripts/slideout-init.js"></script>
+
+</html>

@@ -1,0 +1,155 @@
+/*
+Colors:
+blue   - #00B5AD
+yellow - #FFD400
+purple - #241F59
+red    - #EF413D
+*/
+
+body {
+    padding: 0;
+    margin: 0;   
+    
+    color: #241F59;
+}
+.textContent {
+    padding: 30px;
+}
+.section {
+    margin-bottom: 30px;
+}
+#content {
+    background-color: white;
+}
+
+/**/
+/*Navbar*/
+/**/
+#navbarDiv {
+    height: 60px;
+    line-height: 60px;
+    
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+    background-color: white;
+    border-bottom: 1px solid #241F59;
+    
+    z-index: 99;
+    
+    transition: all 0.2s;
+}
+#navbarLogo {
+    height: 30px;
+    
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+#navbarDiv ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 15%;
+    
+    list-style: none;
+}
+#navbarDiv li {
+    float: left;
+    margin-right: 7.5%;
+}
+
+#hamburger {    
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    
+    border: none;
+    outline:none;
+    background: url('../images/hamburger.svg') no-repeat center;
+    
+/*    12:14 ratio   */
+    height: 20px;
+    width: 24px;
+    
+    cursor: pointer;
+}
+
+
+@media (min-width: 1025px) {
+    #navbarDiv {
+        height: 80px;
+        line-height: 80px;
+        
+        border-bottom: none;
+    }
+    
+    #navbarLogo {
+        height: 50px;
+        
+        left: 7.5%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/**/
+/*Slideout*/
+/**/
+#menu {
+/*
+    background-color: #1D1F20;
+      background-image: linear-gradient(145deg, #1D1F20, #404348);
+*/
+/*    z-index: -1;*/
+}
+#menu ul {
+    margin: 30px 0 0 30px;
+    padding: 0;
+        
+    list-style: none;
+}
+#menu li {
+    margin-bottom: 30px;
+}
+
+/**/
+/*Links*/
+/**/
+a {
+    color: #EF413D;
+    text-decoration: none;
+    
+    transition: all 0.2s;
+}
+
+/**/
+/* Responsiveness */
+/**/
+.mobileOnly {
+    display: block;
+}
+.desktopOnly {
+    display: none;
+}
+
+@media (min-width: 1025px) {
+    .mobileOnly {
+        display: none;
+    }
+    .desktopOnly {
+        display: block;
+    }
+    
+    .textContent {
+        padding-left: 15%;
+        width: 50%;
+    }
+    
+    a:hover {
+        color: #FFD400;
+    }
+}
