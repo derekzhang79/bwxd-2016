@@ -6,6 +6,7 @@
     position: relative;
     
     background-color: white;
+    z-index: 1;
 }
 
 #logoDiv {
@@ -29,14 +30,37 @@
 /**/
 /*Theme Launch*/
 /**/
-#themeLaunchDiv {
+#bgDiv{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
     background: -webkit-linear-gradient(transparent, transparent),
                  url(../images/themeBG-party.jpg) no-repeat;
-/*    background-image: ;*/
     background-size: cover;
-    background-attachment: fixed;
+    background-position:center;
     
+    display: inline;
+    
+/*    z-index: -1;*/
+}
+#themeLaunchDiv {
+    background-color: none;
     position: relative;
+}
+@media(min-width: 1025px){
+	#bgDiv{
+		display: none;
+	}
+    #themeLaunchDiv {
+        background: -webkit-linear-gradient(transparent, transparent),
+                 url(../images/themeBG-party.jpg) no-repeat;
+        background-size: cover;
+        background-position:center;
+        background-attachment: fixed;
+    }
 }
 
 .themeLaunchTitle {
@@ -63,6 +87,10 @@
 /**/
 #interplayDiv {
     background-color: white;
+    padding-bottom: 100px;
+    
+    position: relative;
+    z-index: 999;
 }
 #interplayIcon {
     display: block;
@@ -78,7 +106,13 @@
     font-size: 1.4em;
     width: 240px;
     
-    margin-bottom: 30px;
+    margin-bottom: 75px;
     
     color: #00B5AD;
+}
+@media (min-width: 1025px) {
+    #interplayQuote {
+        font-size: 2em;
+        width: 350px;
+    }
 }

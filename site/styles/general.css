@@ -135,18 +135,19 @@ a {
 .desktopOnly {
     display: none;
 }
-
+@media (min-width: 725px) {
+    .textContent {
+        width: 50%;
+        padding-left: 15%;
+        max-width: 650px;
+    }
+}
 @media (min-width: 1025px) {
     .mobileOnly {
         display: none;
     }
     .desktopOnly {
         display: block;
-    }
-    
-    .textContent {
-        padding-left: 15%;
-        width: 50%;
     }
     
     a:hover {

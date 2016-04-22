@@ -2,6 +2,9 @@
 KNOWN BUGS:
     - pixel rounding issue at some widths causes thin line above and below #themeLaunchDiv to show background image
     - When opening slide menu, sometimes text can get rearranged/pushed to new lines (I think this is because of the 1px border that gets added on the right)
+    - On chrome mobile, sometimes small gap between navbar and top of viewport
+    - slideout menu too wide on iPad landscape
+    - BG photo shows up above and below scroll on Safari iOS
 -->
 
 
@@ -9,6 +12,8 @@ KNOWN BUGS:
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
     <title>BWxD 2016</title>
     
     <link type="text/css" href="styles/general.css" rel="stylesheet" ></link>
@@ -48,7 +53,9 @@ KNOWN BUGS:
                 </div>
             </div>
 
+            <div id="bgDiv"></div>
             <div id="themeLaunchDiv">
+<!--                <div id="bgDiv"><img src="images/themeBG-party.jpg" /></div>-->
                 <h3 id="themeLaunchText" class="themeLaunchTitle">Our 2016 theme is...</h3>
 
                 <img id="themeLaunchCover-mobile" class="mobileOnly" src="images/themeLaunchCover-mobile.svg" />
