@@ -38,13 +38,19 @@
     width: 100%;
     
     background: -webkit-linear-gradient(transparent, transparent),
-                 url(../images/themeBG-party.jpg) no-repeat;
+                 url(../images/themeBG-party-iPhone.jpg) no-repeat;
     background-size: cover;
     background-position:center;
     
     display: inline;
     
 /*    z-index: -1;*/
+}
+@media (min-width: 700px) {
+    #bgDiv{
+        background: -webkit-linear-gradient(transparent, transparent),
+                 url(../images/themeBG-party.jpg) no-repeat;
+    }
 }
 #themeLaunchDiv {
     background-color: none;
