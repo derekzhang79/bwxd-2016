@@ -1,0 +1,66 @@
+<!--
+KNOWN BUGS:
+    - When opening slide menu, sometimes text can get rearranged/pushed to new lines (I think this is because of the 1px border that gets added on the right)
+    - On chrome mobile, sometimes small gap between navbar and top of viewport
+	- weird little transition for border-bottom of navbar
+	- on sponsors page, header image is over right border that appears for slideout
+-->
+
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <title>BWxD 2016</title>
+    
+    <link type="text/css" href="styles/general.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/typefaces.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/index.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/slideout.css" rel="stylesheet" ></link>
+
+<!--    JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav id="menu" class="menu">
+        <ul>
+            <li><a class="capsTitle selectedPage" href="index.html">HOME</a></li>
+            <li><a class="capsTitle" href="about.html">ABOUT US</a></li>
+            <li><a class="capsTitle" href="sponsors.html">SPONSORS</a></li>
+        </ul>
+    </nav>
+	
+    <div id="indexNavbar" class="navbarDiv">
+        <a href="index.html"><img id="navbarLogo" src="images/logo-noText-yellow.svg" /></a>
+
+        <ul class="desktopOnly">
+            <li><a class="capsTitle" href="about.html">ABOUT US</a></li>
+            <li><a class="capsTitle" href="sponsors.html">SPONSORS</a></li>
+        </ul>
+
+        <button id="hamburger" class="mobileOnly toggle-button js-slideout-toggle"></button>
+    </div>
+    
+    <main id="panel">
+		<div id="bgDiv"></div>
+		<div class="contentContainer">
+			<div id="content">
+				<div id="splashDiv">
+					<div id="logoDiv">
+						<img id="logo" src="images/logo.svg" />
+						<p id="logoSubtitle">2016 Conference<br />September 23<sup>rd</sup>–25<sup>th</sup></p>
+						<a id="callToAction" class="capsTitle" href="#" target="_blank">EARLY BIRD TICKETS</a>
+					</div>
+				</div>
+			</div>
+		</div>
+    </main>
+</body>
+
+<script src="scripts/layout-index.js"></script>
+<script src="scripts/slideout.min.js"></script>
+<script src="scripts/slideout-init.js"></script>
+
+</html>
