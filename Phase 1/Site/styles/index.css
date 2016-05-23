@@ -1,21 +1,32 @@
+/*
+@media (max-width 500px) {
+	body {
+		overflow: hidden;
+		position: fixed;
+	}
+}
+*/
+
+
 #indexNavbar {
 	background-color: transparent;
 	border: none;
 }
 
 #content {
-	min-height: 100vh;
+	min-height: 100%;
 }
 #menu {
 	margin-top: 50px
 }
 
+/*
 #bgDiv{
     position: fixed;
     bottom: 0;
     left: 0;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     
     background: -webkit-linear-gradient(transparent, transparent),
                  url(../images/homepageBG.jpg) no-repeat;
@@ -24,6 +35,7 @@
     
     display: inline;  
 }
+*/
 
 #splashDiv {
     height: 100vh;
@@ -32,7 +44,14 @@
     
     position: relative;
 	
-	background-color: none;
+/*	background-color: none;*/
+	
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url(../images/homepageBG.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+	background-attachment: fixed;
+	
     
     z-index: 1;
 }

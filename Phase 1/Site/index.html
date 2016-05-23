@@ -2,8 +2,12 @@
 KNOWN BUGS:
     - When opening slide menu, sometimes text can get rearranged/pushed to new lines (I think this is because of the 1px border that gets added on the right)
     - On chrome mobile, sometimes small gap between navbar and top of viewport
-	- weird little transition for border-bottom of navbar
+	- weird little transition for border-bottom of navbar on load
 	- on sponsors page, header image is over right border that appears for slideout
+
+	- slideout probably shouldn't have light blue border on index
+	- mobile safari links becoming invisible on slideout
+	- navbar resizes strangely when zooming on iOS
 -->
 
 
@@ -24,13 +28,13 @@ KNOWN BUGS:
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
-    <nav id="menu" class="menu">
+    <div id="menu" class="menu">
         <ul>
             <li><a class="capsTitle selectedPage" href="index.html">HOME</a></li>
             <li><a class="capsTitle" href="about.html">ABOUT US</a></li>
             <li><a class="capsTitle" href="sponsors.html">SPONSORS</a></li>
         </ul>
-    </nav>
+    </div>
 	
     <div id="indexNavbar" class="navbarDiv">
         <a href="index.html"><img id="navbarLogo" src="images/logo-noText-yellow.svg" /></a>
@@ -44,7 +48,7 @@ KNOWN BUGS:
     </div>
     
     <main id="panel">
-		<div id="bgDiv"></div>
+<!--		<div id="bgDiv"></div>-->
 		<div class="contentContainer">
 			<div id="content">
 				<div id="splashDiv">
@@ -62,5 +66,12 @@ KNOWN BUGS:
 <script src="scripts/layout-index.js"></script>
 <script src="scripts/slideout.min.js"></script>
 <script src="scripts/slideout-init.js"></script>
+
+<script>
+	var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+	if (isSafari) {
+		$('#splashDiv').height($(window).height());		
+	}
+</script>
 
 </html>
