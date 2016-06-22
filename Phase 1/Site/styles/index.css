@@ -46,6 +46,8 @@
 	
 /*	background-color: none;*/
 	
+	background: linear-gradient(transparent, transparent),
+                 url(../images/homepageBG.jpg) no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url(../images/homepageBG.jpg) no-repeat;
     background-size: cover;
@@ -78,6 +80,8 @@
 
 #logoSubtitle {
 	color: #FFD400;
+	
+	letter-spacing: 1px;
 }
 
 #callToAction {

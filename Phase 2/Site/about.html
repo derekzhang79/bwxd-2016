@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
+    
+<!--    Custom facebook look-->
+    <meta property="og:image" content="http://betterworldxdesign.com/images/fb-ogimage.png" />
+    <meta property="og:image:width" content=1024 />
+    <meta property="og:image:height" content=768 />
+    <meta property="og:type"   content="website" /> 
+    <meta property="og:title" content="Better World by Design"/>
+    <meta property="og:url" content="http://betterworldxdesign.com"/>
+    <meta property="og:description"
+          content="2016 Conference – September 23-25 | Better World by Design is a student-led initiative at Brown University and Rhode Island School of Design that celebrates interdisciplinary collaboration between designers, educators, innovators, and learners. We envision a world where design-thinking is accessible to everyone in order to catalyze positive change on a local and global scale."/>
+	
+    <title>About Us</title>
+    
+    <link type="text/css" href="styles/general.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/typefaces.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/slideout.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/textPage.css" rel="stylesheet" ></link>
+
+<!--    JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script></head>
+<body>
+    <nav id="menu" class="menu">
+        <ul>
+            <li><a class="capsTitle" href="index.html">HOME</a></li>
+            <li><a class="capsTitle selectedPage" href="about.html">ABOUT US</a></li>
+            <li><a class="capsTitle" href="sponsors.html">SPONSORS</a></li>
+        </ul>
+    </nav>
+    
+    <div class="navbarDiv">
+        <a href="index.html"><img id="navbarLogo" src="images/logo-noText-blue.svg" /></a>
+
+        <ul class="desktopOnly">
+            <li><a class="capsTitle selectedPage" href="about.html">ABOUT US</a></li>
+            <li><a class="capsTitle" href="sponsors.html">SPONSORS</a></li>
+        </ul>
+
+        <button id="hamburger" class="mobileOnly toggle-button js-slideout-toggle"></button>
+    </div>
+    
+    <main id="panel">
+		<div class="contentContainer whiteBG">
+			<div id="content" class="textContent">
+				<h1 class="capsTitle">OUR MISSION</h1>
+
+				<div class="section">
+					<h3 class="capsTitle">WHO WE ARE</h3>
+					<p>
+						Better World by Design is a student-led initiative at Brown University and Rhode Island School of Design that celebrates interdisciplinary collaboration between designers, educators, innovators, and learners. We envision a world where design-thinking is accessible to everyone in order to catalyze positive change on a local and global scale.
+					</p>
+				</div>
+
+				<div class="section">
+					<h3 class="capsTitle">WHAT WE DO</h3>
+					<p>
+						During the year, we facilitate workshops, panels, and discussions that engage in and promote design. Our year builds up to an annual 3-day conference that reinvigorates these ideas and inspires us to continue these conversations.
+					</p>
+				</div>
+
+				<div class="section">
+					<h3 class="capsTitle">OUR HISTORY</h3>
+					<p>
+						In 2008, a group of engineers from Brown and designers from Rhode Island School of Design founded Better World by Design with the aspiration of merging their fields to solve social problems from a holistic perspective. Over the years, Better World by Design has continued to expand its reach, while fostering a close partnership between Brown, RISD, and the Providence community.
+					</p>
+				</div>
+			</div>
+		</div>
+    </main>
+</body>
+
+<script src="scripts/layout.js"></script>
+<script src="scripts/slideout.min.js"></script>
+<script src="scripts/slideout-init.js"></script>
+
+</html>

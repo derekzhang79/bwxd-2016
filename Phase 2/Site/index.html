@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
+    
+<!--    Custom facebook look-->
+    <meta property="og:image" content="http://betterworldxdesign.com/images/fb-ogimage.png" />
+    <meta property="og:image:width" content=1024 />
+    <meta property="og:image:height" content=768 />
+    <meta property="og:type"   content="website" /> 
+    <meta property="og:title" content="Better World by Design"/>
+    <meta property="og:url" content="http://betterworldxdesign.com"/>
+    <meta property="og:description"
+          content="2016 Conference – September 23-25 | Better World by Design is a student-led initiative at Brown University and Rhode Island School of Design that celebrates interdisciplinary collaboration between designers, educators, innovators, and learners. We envision a world where design-thinking is accessible to everyone in order to catalyze positive change on a local and global scale."/>
+
+    <title>BWxD 2016</title>
+    
+    <link type="text/css" href="styles/general.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/typefaces.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/index.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/slideout.css" rel="stylesheet" ></link>
+
+<!--    JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="menu" class="menu">
+        <ul>
+            <li><a class="capsTitle selectedPage" href="index.html">HOME</a></li>
+            <li><a class="capsTitle" href="about.html">ABOUT US</a></li>
+            <li><a class="capsTitle" href="sponsors.html">SPONSORS</a></li>
+        </ul>
+    </div>
+	
+    <div id="indexNavbar" class="navbarDiv">
+        <a href="index.html"><img id="navbarLogo" src="images/logo-noText-yellow.svg" /></a>
+
+        <ul class="desktopOnly">
+            <li><a class="capsTitle" href="about.html">ABOUT US</a></li>
+            <li><a class="capsTitle" href="sponsors.html">SPONSORS</a></li>
+        </ul>
+
+        <button id="hamburger" class="mobileOnly toggle-button js-slideout-toggle"></button>
+    </div>
+    
+    <main id="panel">
+<!--		<div id="bgDiv"></div>-->
+		<div class="contentContainer">
+			<div id="content">
+				<div id="splashDiv">
+					<div id="logoDiv">
+						<img id="logo" src="images/logo.svg" />
+						<p id="logoSubtitle">September 23<sup>rd</sup>–25<sup>th</sup>, 2016<br />Providence, Rhode Island</p>
+						<a id="callToAction" class="capsTitle" href="https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=1877&SINGLESTORE=true" target="_blank">EARLY BIRD TICKETS</a>
+					</div>
+				</div>
+			</div>
+		</div>
+    </main>
+</body>
+
+<script src="scripts/layout-index.js"></script>
+<script src="scripts/slideout.min.js"></script>
+<script src="scripts/slideout-init.js"></script>
+
+<script>
+	var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+	if (isSafari) {
+		$('#splashDiv').height($(window).height());		
+	}
+</script>
+
+</html>

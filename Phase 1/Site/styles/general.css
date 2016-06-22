@@ -11,6 +11,8 @@ body {
     margin: 0;   
     
     color: #241F59;	
+	
+	font-weight: 300;
 }
 .textContent {
     padding: 30px;
@@ -43,7 +45,6 @@ body {
     
     transition: all 0.2s;
 	
-	font-weight: 300
 }
 #navbarLogo {
     height: 30px;
