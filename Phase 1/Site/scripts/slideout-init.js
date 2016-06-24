@@ -18,9 +18,13 @@ slideout.on('beforeopen', function() {
         slideout.close();
     });
     $('.contentContainer').css('border-right', '2px solid #00B5AD');
+	
+	$('.hamburger').addClass('is-active');
 });
 slideout.on('beforeclose', function() {
     $('.contentContainer').click(function() {});
+	
+	$('.hamburger').removeClass('is-active');
 });
 slideout.on('close', function() {
     $('.contentContainer').css('border-right', 'none');
