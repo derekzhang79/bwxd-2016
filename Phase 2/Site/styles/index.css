@@ -107,8 +107,42 @@
 	}
 }
 
+/**/
+/*Social Media*/
+/**/
 
+#socialMedia {
+	width: 200px;
+	margin: 0 auto;
+}
 
+#socialIcons {
+	color: white;
+	list-style: none;
+	margin-top: 30px;
+	padding: 0;
+	width: 100%;
+	
+	text-align: center;
+}
 
+#socialIcons li {
+	float: left;
+	width: 33.3%
+}
 
+img {
+/*	background-color: red;*/
+}
+
+.socialImage {
+	height: 40px;
+}
+
+@media (min-width: 1025px) {
+	#socialIcons li svg:hover path {
+		transition: 0.2s all;
+		fill: #FFD400;
+	}
+}
 
