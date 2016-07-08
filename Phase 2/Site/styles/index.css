@@ -91,7 +91,7 @@
 	
 	background-color: #00B5AD;
 	color: #FFD400;
-	border: red 2px solid;
+	border: #EF413D 2px solid;
 }
 @media (min-width: 1025px) {
     #callToAction {
