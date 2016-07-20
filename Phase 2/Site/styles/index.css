@@ -7,14 +7,11 @@
 }
 */
 
-
-#indexNavbar {
-	background-color: transparent;
-	border: none;
-}
-
-#content {
-	min-height: 100%;
+@media (min-width: 1025px) {
+	#indexNavbar {
+		background-color: transparent;
+		border: none;
+	}
 }
 #menu {
 	margin-top: 50px
@@ -39,7 +36,7 @@
 
 #splashDiv {
     height: 100vh;
-    min-height: 400px;
+    min-height: 600px;
     text-align: center;
     
     position: relative;
