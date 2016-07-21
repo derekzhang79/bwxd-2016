@@ -195,6 +195,32 @@ position: absolute;
 }
 
 /**/
+/*Submenu*/
+/**/
+
+.submenu {
+	float: left;
+	margin-top: 35px;
+	margin-left: 15px;
+}
+
+.submenu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.submenu ul li {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 1500px) {
+	.submenu {
+		margin-left: 90px;
+	}
+}
+
+/**/
 /*Links*/
 /**/
 a {
