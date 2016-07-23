@@ -37,12 +37,14 @@ function layout() {
 		headerBottom = header.offset().top + header.height()
 		navBottom = navbar.offset().top + navbar.height() + parseInt(navbar.css('border-bottom-width'))
 		
-		submenu.css('position', 'fixed')
+		submenu.css('position', 'absolute')
 		if (navBottom >= headerBottom) {
-			submenu.css('top', navbar.height())
+			submenu.css('position', 'fixed')
+//			submenu.css('top', navbar.height())
+			submenu.css('top', 200)
 		} else {
-			submenu.css('position', 'absolute')
 			submenu.css('top', headerBottom - navbar.height())
+			console.log(headerBottom - navbar.height())
 		}
 	}
 	
