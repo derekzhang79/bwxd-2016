@@ -14,7 +14,7 @@ function layout() {
     //Put a line at the bottom of the navbar when the user scrolls down 
     //(or always on mobile)
 	var navbar = $('.navbarDiv').first();
-    if ($(window).width() < desktopWidth || $('body').scrollTop() > 0) {
+    if ($(window).width() < desktopWidth || window.scrollY > 0) {
         navbar.css('border-bottom', '2px solid #00B5AD');
     } else {
         navbar.css('border-bottom', 'none');
@@ -49,8 +49,6 @@ function layout() {
 			
 		} else {
 			submenu.css('top', headerBottom - navbar.height());
-			console.log(headerBottom - navbar.height());
 		}
-		console.log(submenu.css('top'));
 	}
 }
