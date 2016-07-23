@@ -82,7 +82,7 @@
 }
 
 #callToAction {
-	margin-top: 30px;
+	margin-top: 60px;
 	display: inline-block;
 	padding: 10px 15px;
 	
@@ -109,14 +109,14 @@
 /**/
 
 #socialMedia {
-	width: 200px;
+	width: 300px;
 	margin: 0 auto;
 }
 
 #socialIcons {
 	color: white;
 	list-style: none;
-	margin-top: 30px;
+	margin-top: 60px;
 	padding: 0;
 	width: 100%;
 	
@@ -125,7 +125,7 @@
 
 #socialIcons li {
 	float: left;
-	width: 33.3%
+	width: 25%
 }
 
 img {

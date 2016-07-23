@@ -4,9 +4,6 @@ $('.inpagelink').click(function(event){
 	slideout.close();
 });
 
-//menu-l2 cases handled on individual html pages
-
-
 var navbar = $('.navbarDiv').first();
 var section = $('.section').first();
 function scrollToID(ID){
