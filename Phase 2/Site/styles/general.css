@@ -204,6 +204,15 @@ position: absolute;
 	margin-bottom: 30px;
 }
 
+.submenu ul li a br {
+	display: inherit;
+}
+@media (min-width: 1380px) {
+	.submenu ul li a br {
+		display: none;
+	}
+}
+
 /**/
 /*Links*/
 /**/
