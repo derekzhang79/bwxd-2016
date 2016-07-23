@@ -59,13 +59,13 @@ body {
 .navbarDiv ul {
     margin: 0;
     padding: 0;
-    margin-left: 15%;
+    margin-left: 26%;
     
     list-style: none;
 }
 .navbarDiv li {
     float: left;
-    margin-right: 7.5%;
+    margin-right: 13%;
 	
 	font-size: 1.1em;
 }
@@ -150,7 +150,7 @@ position: absolute;
     transition: bottom 0.1s ease, transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1); }
 
 
-@media (min-width: 1025px) {
+@media (min-width: 1100px) {
     .navbarDiv {
         height: 80px;
         line-height: 80px;        
@@ -159,7 +159,7 @@ position: absolute;
     #navbarLogo {
         height: 50px;
         
-        left: 7.5%;
+        left: 13%;
         transform: translate(-50%, -50%);
     }
 }
@@ -201,7 +201,8 @@ position: absolute;
 .submenu {
 	float: left;
 	margin-top: 35px;
-	margin-left: 15px;
+	margin-left: calc(13% - 25px); 
+	/* minus half the width of the navbar logo, since that is shifted to be centered */
 }
 
 .submenu ul {
@@ -212,12 +213,6 @@ position: absolute;
 
 .submenu ul li {
 	margin-bottom: 30px;
-}
-
-@media (min-width: 1500px) {
-	.submenu {
-		margin-left: 90px;
-	}
 }
 
 /**/
@@ -242,11 +237,11 @@ a {
 @media (min-width: 725px) {
     .textContent {
         width: 50%;
-        padding-left: 15%;
+        padding-left: 26%;
         max-width: 650px;
     }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1100px) {
     .mobileOnly {
         display: none;
     }
