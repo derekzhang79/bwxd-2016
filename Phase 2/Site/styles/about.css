@@ -1,4 +1,6 @@
 #header {
+	background: linear-gradient(transparent, transparent),
+                 url(../images/banners/about.jpg) no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url(../images/banners/about.jpg) no-repeat;
 }

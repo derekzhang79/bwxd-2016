@@ -38,16 +38,19 @@ function layout() {
 		navBottom = navbar.offset().top + navbar.height() + parseInt(navbar.css('border-bottom-width'))
 		
 		submenu.css('position', 'absolute')
-		if (navBottom >= headerBottom) {
-			submenu.css('position', 'fixed')
-//			submenu.css('top', navbar.height())
-			submenu.css('top', 200)
+		if (navBottom >= headerBottom) {			
+			if (isChrome || isFirefox) {
+				diff = headerBottom - navbar.height();
+				submenu.css('top', window.scrollY);
+			} else {
+				submenu.css('position', 'fixed')
+				submenu.css('top', navbar.height())
+			}
+			
 		} else {
-			submenu.css('top', headerBottom - navbar.height())
-			console.log(headerBottom - navbar.height())
+			submenu.css('top', headerBottom - navbar.height());
+			console.log(headerBottom - navbar.height());
 		}
+		console.log(submenu.css('top'));
 	}
-	
-	
-	
 }
