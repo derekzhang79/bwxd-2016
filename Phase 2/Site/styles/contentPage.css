@@ -59,7 +59,7 @@
 @media (min-width: 1100px) {
     .content {
         width: 50%;
-        padding-left: 26%;
-        max-width: 650px;
+        padding-left: calc(26% - 30px);
+        max-width: 710px;
     }
 }
