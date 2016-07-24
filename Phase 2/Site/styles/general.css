@@ -232,13 +232,6 @@ a {
 .desktopOnly {
     display: none;
 }
-@media (min-width: 725px) {
-    .textContent {
-        width: 50%;
-        padding-left: 26%;
-        max-width: 650px;
-    }
-}
 @media (min-width: 1100px) {
     .mobileOnly {
         display: none;
