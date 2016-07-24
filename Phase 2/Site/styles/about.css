@@ -4,3 +4,23 @@
 	background: -webkit-linear-gradient(transparent, transparent),
                  url(../images/banners/about.jpg) no-repeat;
 }
+
+
+/**/
+/* Team */
+/**/
+
+.personProfile {
+	float: left;
+	width: 40%;
+	margin-right: 10%;
+	
+	position: relative;
+}
+.personImg-border {
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+/* Individual people */
