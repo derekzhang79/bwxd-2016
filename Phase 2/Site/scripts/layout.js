@@ -1,4 +1,4 @@
-var desktopWidth = 1025;
+var desktopWidth = 1200;
 
 $(window).load(function(loadEvent){
     layout();
