@@ -19,7 +19,7 @@ function layout() {
     } else {
         navbar.css('border-bottom', 'none');
     }
-
+	
     //bump down content and menu for navbar
     $('.contentContainer').css('margin-top', navbar.height());
     $('#menu').css('margin-top', navbar.height());

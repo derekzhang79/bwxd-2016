@@ -11,7 +11,7 @@ $(window).resize(function(resizeEvent){
 
 function layout() {
 	var navbar = $('.navbarDiv').first();
-    if ($(window).width() < desktopWidth || $('body').scrollTop() > 0) {
+    if ($(window).width() < desktopWidth) {
         navbar.css('border-bottom', '2px solid #00B5AD');
     } else {
         navbar.css('border-bottom', 'none');
