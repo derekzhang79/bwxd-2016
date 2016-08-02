@@ -138,6 +138,7 @@ img {
 
 @media (min-width: 1200px) {
 	#socialIcons li svg:hover path {
+		-webkit-transition: 0.2s all;
 		transition: 0.2s all;
 		fill: #FFD400;
 	}
