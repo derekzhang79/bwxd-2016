@@ -151,9 +151,10 @@
 	width: 25%;
 	margin-bottom: 40px;
 }
-
-img {
-/*	background-color: red;*/
+@media (min-height: 575px) {
+	#socialIcons li {
+		margin-bottom: 0;
+	}
 }
 
 .socialImage {
