@@ -14,7 +14,7 @@
 	}
 }
 #menu {
-	margin-top: 50px
+	margin-top: 50px;
 }
 
 /*
@@ -35,8 +35,9 @@
 */
 
 #splashDiv {
-    height: 100vh;
-    min-height: 750px;
+	height: 100vh;
+	
+    min-height: 575px;
     text-align: center;
     
     position: relative;
@@ -51,19 +52,33 @@
     background-position:center;
 	background-attachment: fixed;
 	
-    
     z-index: 1;
 }
+@media (min-width: 650px) {
+	#splashDiv {
+		min-height: 750px;
+	}
+}
+
 
 #logoDiv {
+/*	padding-top: 80px;*/
+	
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, calc(-50% + 35px)); /* +35px to account for 70px navbar */
+	-webkit-transform: translate(-50%, calc(-50% + 35px));
 	
 	text-align: center;
 }
+@media (min-width: 1200px) {
+	#logoDiv {
+		transform: translate(-50%, -50%); /* no add bc navbar is transparent */
+		-webkit-transform: translate(-50%, -50%);
+	}
+}
+
 #logo {
     width: 60vw;
     max-width: 500px;
@@ -82,7 +97,7 @@
 }
 
 #callToAction {
-	margin-top: 60px;
+	margin-top: 40px;
 	display: inline-block;
 	padding: 10px 15px;
 	
@@ -116,16 +131,25 @@
 #socialIcons {
 	color: white;
 	list-style: none;
-	margin-top: 60px;
+	margin-top: 40px;
 	padding: 0;
 	width: 100%;
 	
 	text-align: center;
 }
+@media (min-width: 1200px) {
+	#socialIcons {
+		margin-top: 60px;
+	}
+	#callToAction {
+		margin-top: 60px;
+	}
+}
 
 #socialIcons li {
 	float: left;
-	width: 25%
+	width: 25%;
+	margin-bottom: 40px;
 }
 
 img {
