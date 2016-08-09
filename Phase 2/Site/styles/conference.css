@@ -1,6 +1,85 @@
+/*
+Colors:
+blue   - #00B5AD
+yellow - #FFD400
+purple - #241F59
+red    - #EF413D
+*/
+
 #header {
 	background: linear-gradient(transparent, transparent),
                  url(../images/banners/conference.jpg) no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url(../images/banners/conference.jpg) no-repeat;
 }
+
+/**/
+/* Schedule */
+/**/
+
+#schedule a {
+	color: #241F59;
+	border-bottom: 1px solid #241F59;
+}
+@media (min-width: 1200px) {
+	#schedule a:hover {
+		color: #FFD400;
+		border-bottom: 1px solid #FFD400;
+	}
+}
+
+.scheduleToggleArrow {
+	width: 40px;
+}
+
+/**/
+/* Schedule Day */
+/**/
+
+.scheduleDayToggle {
+	width: 100vw;
+	margin-left: -30px;
+	
+	padding: 30px 0;
+	
+	color: white;
+	background-color: #FFD400;
+	
+	text-align: center;
+}
+.scheduleDayToggle img {
+	margin-top: 30px;
+	
+	background-color: white;
+}
+
+.scheduleDayDescription {
+	margin: 30px 0 60px 0;
+}
+
+/**/
+/* Schedule Event */
+/**/
+
+.scheduleEvent {
+	border-left: 10px solid #00B5AD;
+	padding-left: 15px;
+	padding-bottom: 30px;
+	margin-bottom: 15px;
+}
+
+.scheduleEventDetails {
+	margin-top: 15px;
+	font-weight: 700;
+}
+.scheduleEventSpeaker p {
+	margin: 0;
+}
+
+.scheduleEventContentToggle {
+	margin: 15px 0;
+}
+.scheduleEventContentToggle img {
+	background-color: #FFD400;
+}
+
