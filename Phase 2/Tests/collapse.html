@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+	
+	<style>
+		.container {
+			width:100%;
+			border:1px solid #d3d3d3;
+		}
+		.container div {
+			width:100%;
+		}
+		.container .header {
+			background-color:#d3d3d3;
+			padding: 2px;
+			cursor: pointer;
+			font-weight: bold;
+		}
+		.container .header> span:first-child + span {
+			float:right;
+			font-style: italic;
+		}
+		.container .content {
+			display: none;
+			padding : 5px;
+		}
+	</style>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="header"><span>Mahathma Gandhi</span>
+	 <span>2 October 1869 – 30 January 1948</span>
+
+		</div>
+		<div class="content">Mohandas Karamchand Gandhi (pronounced [ˈmoːɦənd̪aːs ˈkərəmtʃənd̪ ˈɡaːnd̪ʱi] ( listen); 2 October 1869 – 30 January 1948), commonly known as Mahatma Gandhi or Bapu (Father of Nation), was the preeminent leader of Indian nationalism in British-ruled India. Employing non-violent civil disobedience, Gandhi led India to independence and inspired movements for non-violence, civil rights and freedom across the world.[2][3]</div>
+	</div>
+	<div class="container">
+		<div class="header"><span>Jawaharlal Nehru</span><span>14 November 1889 – 27 May 1964</span>
+
+		</div>
+		<div class="content">Jawaharlal Nehru (Hindi: जवाहरलाल नेहरू) (Hindustani: [ˈdʒəʋaːɦərˈlaːl ˈneːɦru] ( listen); 14 November 1889 – 27 May 1964) was the first Prime Minister of India and a central figure in Indian politics for much of the 20th century. He emerged as the paramount leader of the Indian Independence Movement under the tutelage of Mahatma Gandhi and ruled India from its establishment as an independent nation in 1947 until his death in office in 1964.[5] Nehru is considered to be the architect of the modern Indian nation-state; a sovereign, socialist, secular, and democratic republic.[6] He was the father of Indira Gandhi and the maternal grandfather of Rajiv Gandhi, who were to later serve as the third and sixth Prime Ministers of India, respectively.</div>
+	</div>
+	<div class="container">
+		<div class="header"><span>Subhash Chandra Bose</span><span>23 January 1897 – unknown</span>
+
+		</div>
+		<div class="content">Subhas Chandra Bose ( listen (help·info); 23 January 1897 – unknown) also known as Netaji (Bengali/Oriya/Hindi): “Respected Leader”), was one of the most prominent Indian nationalist leaders who attempted to gain India's independence from British rule by force during the waning years of World War II with the help of the Axis powers.</div>
+	</div>
+	<div class="container">
+		<div class="header"><span>Bhagat Singh</span><span>28 September 1907 – 23 March 1931</span>
+
+		</div>
+		<div class="content">Bhagat Singh (IPA: [pə̀ɡət̪ sɪ́ŋɡ] ( listen); 28 September 1907 – 23 March 1931) was an Indian socialist considered to be one of the most influential revolutionaries of the Indian independence movement. He is often referred to as Shaheed Bhagat Singh, the word "Shaheed" meaning "martyr" in a number of Indian languages. Born into a Sikh family which had earlier been involved in revolutionary activities against the British Raj, as a teenager Bhagat Singh studied European revolutionary movements and was attracted to anarchist and Marxist ideologies. He became involved in numerous revolutionary organisations, and quickly rose through the ranks of the Hindustan Republican Association (HRA) to become one of its main leaders, eventually changing its name to the Hindustan Socialist Republican Association (HSRA) in 1928.</div>
+	</div>
+	<div class="container">
+		<div class="header"><span>Chandra Azad</span><span>23 July 1906 – 27 February 1931</span>
+
+		</div>
+		<div class="content">Chandra Shekhar Azad pronunciation (help·info) (23 July 1906 – 27 February 1931), popularly known as Azad ("The Liberated"), was an Indian revolutionary who reorganised the Hindustan Republican Association under the new name of Hindustan Socialist Republican Association (HSRA) after the death of its founder, Ram Prasad Bismil, and three other prominent party leaders, Roshan Singh, Rajendra Nath Lahiri and Ashfaqulla Khan. He is considered to be the mentor of Bhagat Singh and chief strategist of the HSRA.</div>
+	</div>
+</body>
+	
+	<script>
+		$(".header").click(function () {
+			$content = $(this).next();
+			$content.slideToggle(500);
+		});
+	</script>
+</html>

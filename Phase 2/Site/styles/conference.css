@@ -29,7 +29,10 @@ red    - #EF413D
 }
 
 .scheduleToggleArrow {
-	width: 40px;
+	width: 35px;
+	
+	transition: 0.2s all;
+	-webkit-transition: 0.2s all;
 }
 
 /**/
@@ -39,32 +42,63 @@ red    - #EF413D
 .scheduleDayToggle {
 	width: 100vw;
 	margin-left: -30px;
+	margin-top: 15px;
 	
 	padding: 30px 0;
 	
 	color: white;
-	background-color: #FFD400;
-	
 	text-align: center;
 }
+#scheduleDayToggle-1 {
+	background-color: #FFD400;
+}
+#scheduleDayToggle-2 {
+	background-color: #00B5AD;
+}
+#scheduleDayToggle-3 {
+	background-color: #EF413D;
+}
+
 .scheduleDayToggle img {
 	margin-top: 30px;
-	
-	background-color: white;
+}
+
+.toggleContent {
+	display: none;
 }
 
 .scheduleDayDescription {
 	margin: 30px 0 60px 0;
+}
+.scheduleSmall {
+	display: inline;
+}
+.scheduleLarge {
+	display: none;
+}
+@media (min-width: 680px) {
+	.scheduleDayContent {
+		display: block;
+	}
+	.scheduleDayToggle {
+		display: none;
+	}
+	.scheduleSmall {
+		display: none;
+	}
+	.scheduleLarge {
+		display: block;
+	}
 }
 
 /**/
 /* Schedule Event */
 /**/
 
-.scheduleEvent {
+.scheduleEvent-inner {
 	border-left: 10px solid #00B5AD;
 	padding-left: 15px;
-	padding-bottom: 30px;
+	padding-bottom: 5px;
 	margin-bottom: 30px;
 }
 
@@ -77,9 +111,26 @@ red    - #EF413D
 }
 
 .scheduleEventContentToggle {
-	margin: 15px 0;
-}
-.scheduleEventContentToggle img {
-	background-color: #FFD400;
+	margin: 30px 0 0 0;
 }
 
+.scheduleEventContent {
+	margin: 0;
+	padding: 0;
+	padding-top: 30px;
+}
+
+@media (min-width: 680px) {
+	.scheduleEvent-inner {
+		margin-left: 117px;
+	}
+}
+
+.scheduleEventTimeLarge {
+	float: left;
+	font-weight: 700;
+	margin-top: 5px;
+	
+	text-align: right;
+	width: 102px;
+}
