@@ -5,8 +5,6 @@
                  url(../images/banners/connect.jpg) no-repeat;
 }
 
-
-
 .contactLink-img {
 	display: inline-block;
 	line-height: 0px; /*so inline block doesn't add a little extra height*/
