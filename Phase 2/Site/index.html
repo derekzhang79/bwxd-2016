@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
+    
+<!--    Custom facebook look-->
+    <meta property="og:image" content="http://betterworldxdesign.com/images/fb-ogimage.png" />
+    <meta property="og:image:width" content=1024 />
+    <meta property="og:image:height" content=768 />
+    <meta property="og:type"   content="website" /> 
+    <meta property="og:title" content="Better World by Design"/>
+    <meta property="og:url" content="http://betterworldxdesign.com"/>
+    <meta property="og:description"
+          content="2016 Conference – September 23-25 | Better World by Design is a student-led initiative at Brown University and Rhode Island School of Design that celebrates interdisciplinary collaboration between designers, educators, innovators, and learners. We envision a world where design-thinking is accessible to everyone in order to catalyze positive change on a local and global scale."/>
+
+    <title>BWxD 2016</title>
+    
+    <link type="text/css" href="styles/general.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/typefaces.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/index.css" rel="stylesheet" ></link>
+    <link type="text/css" href="styles/slideout.css" rel="stylesheet" ></link>
+
+<!--    JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <nav id="menu" class="menu">
+        <ul class="menu-l1">
+            <li><a class="capsTitle selectedPage" href="index.html">HOME</a></li>
+            <li><a class="capsTitle" href="about.html">ABOUT US</a></li>
+			<ul class="menu-l2">
+				<li><a class="capsTitle" href="about.html#mission">- OUR MISSION</a></li>
+				<li><a class="capsTitle" href="about.html#team">- OUR TEAM</a></li>
+				<li><a class="capsTitle" href="about.html#history">- OUR HISTORY</a></li>
+			</ul>
+			<li><a class="capsTitle" href="connect.html">CONNECT</a></li>
+			<ul class="menu-l2">
+				<li><a class="capsTitle" href="connect.html#volunteer">- VOLUNTEER</a></li>
+				<li><a class="capsTitle" href="connect.html#contact">- CONTACT</a></li>
+				<li><a class="capsTitle" href="connect.html#blog">- BLOG</a></li>
+				<li><a class="capsTitle" href="connect.html#social">- SOCIAL MEDIA</a></li>
+			</ul>
+            <li><a class="capsTitle" href="sponsors.html">SPONSORS</a></li>
+        </ul>
+    </nav>
+	
+    <div id="indexNavbar" class="navbarDiv">
+        <a href="index.html">
+			<img class="desktopOnly" id="navbarLogo" src="images/logo-noText-yellow.svg" />
+			<img class="mobileOnly" id="navbarLogo" src="images/logo-noText-blue.svg" />
+		</a>
+		<h3 class="mobileOnly navTitle">HOME</h3>
+
+        <ul class="desktopOnly">
+            <li><a class="capsTitle" href="about.html">ABOUT US</a></li>
+			<li><a class="capsTitle" href="connect.html">CONNECT</a></li>
+            <li><a class="capsTitle" href="sponsors.html">SPONSORS</a></li>
+        </ul>
+
+        <button id="hamburger" class="hamburger hamburger--squeeze mobileOnly toggle-button js-slideout-toggle" type="button">
+		  	<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+		</button>
+    </div>
+    
+    <main id="panel">
+<!--		<div id="bgDiv"></div>-->
+		<div class="contentContainer">
+			<div id="splashDiv">
+				<div id="logoDiv">
+					<img id="logo" src="images/logo.svg" />
+					<p id="logoSubtitle">September 23<sup>rd</sup>–25<sup>th</sup>, 2016<br />Providence, Rhode Island</p>
+					<a id="callToAction" class="capsTitle" href="https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=1877&SINGLESTORE=true" target="_blank">GET TICKETS</a>
+
+					<div id="socialMedia">
+						<ul id="socialIcons">
+							<li id="tumblrIcon">
+								<a target="_blank" href="https://abwxd.tumblr.com/" target="_blank">
+									<img class="svg socialImage" src="images/social/tumblr.svg" />
+								</a> 
+							</li>
+							<li id="fbIcon">
+								<a target="_blank" href="https://www.facebook.com/abetterworldbydesign/" target="_blank">
+									<img class="svg socialImage" src="images/social/facebook.svg" />
+								</a> 
+							</li>
+							<li id="twitterIcon">
+								<a target="_blank" href="https://twitter.com/betterxdesign" target="_blank">
+									<img class="svg socialImage" src="images/social/twitter.svg" />
+								</a> 
+							</li>
+							<li id="instagramIcon">
+								<a target="_blank" href="https://www.instagram.com/betterxdesign/" target="_blank">
+									<img class="svg socialImage" src="images/social/instagram.svg" />
+								</a> 
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+    </main>
+</body>
+
+<script src="scripts/checkBrowser.js"></script>
+<script src="scripts/layout-index.js"></script>
+<script src="scripts/slideout.min.js"></script>
+<script src="scripts/slideout-init.js"></script>
+<script src="scripts/svg-replace.js"></script>
+
+</html>

@@ -1,0 +1,68 @@
+#header {
+	background: linear-gradient(transparent, transparent),
+                 url(../images/banners/connect.jpg) no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url(../images/banners/connect.jpg) no-repeat;
+}
+
+.contactLink-img {
+	display: inline-block;
+	line-height: 0px; /*so inline block doesn't add a little extra height*/
+	height: 100%;
+	width: 60px;
+	
+	border-radius: 50%;
+	
+	float: left;
+}
+.contactLink-img img {
+	border-radius: 50%;
+}
+.contactLink-txt {
+	color: #241F59;
+	border-bottom: 1px solid #241F59;
+}
+@media (min-width: 1200px) {
+	.contactLink-txt:hover {
+		color: #FFD400;
+		border-bottom: 1px solid #FFD400;
+	}
+}
+.socialContactDiv .contactLink-txt {
+	line-height: 60px;
+	margin-left: 30px;
+}
+#social .socialContactDiv {
+	margin-bottom: 30px;
+}
+
+#tagDiv {
+	margin-bottom: 35px;
+}
+#tagDiv p {
+	margin-bottom: 5px;
+}
+
+@media (min-width: 1200px) {
+	.socialContactDiv a svg:hover path {
+		-webkit-transition: 0.2s all;
+		transition: 0.2s all;
+		fill: #FFD400;
+	}
+}
+
+/**/
+/* Responsive */
+/**/
+
+.hideSm {
+	display: none;
+}
+@media (min-width: 530px) {
+	.hideSm {
+		display: inline-block;
+	}
+	.hideLg {
+		display: none;
+	}
+}

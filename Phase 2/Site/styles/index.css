@@ -1,0 +1,141 @@
+@media (min-width: 1200px) {
+	#indexNavbar {
+		background-color: transparent;
+		border: none;
+	}
+}
+#menu {
+	margin-top: 50px;
+}
+
+#splashDiv {
+	height: 100vh;
+	
+    min-height: 575px;
+    text-align: center;
+    
+    position: relative;
+	
+	background: linear-gradient(transparent, transparent),
+                 url(../images/homepageBG.jpg) no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url(../images/homepageBG.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+	background-attachment: fixed;
+	
+    z-index: 1;
+}
+@media (min-width: 650px) {
+	#splashDiv {
+		min-height: 750px;
+	}
+}
+
+
+#logoDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% + 35px)); /* +35px to account for 70px navbar */
+	-webkit-transform: translate(-50%, calc(-50% + 35px));
+	
+	text-align: center;
+}
+@media (min-width: 1200px) {
+	#logoDiv {
+		transform: translate(-50%, -50%); /* no add bc navbar is transparent */
+		-webkit-transform: translate(-50%, -50%);
+	}
+}
+
+#logo {
+    width: 60vw;
+    max-width: 500px;
+	min-width: 300px;
+    
+    margin-bottom: 15px;
+}
+#logoDiv p {
+    margin-bottom: 0;
+}
+
+#logoSubtitle {
+	color: #FFD400;
+	
+	letter-spacing: 1px;
+}
+
+#callToAction {
+	margin-top: 40px;
+	display: inline-block;
+	padding: 10px 15px;
+	
+	background-color: #00B5AD;
+	color: #FFD400;
+	border: #EF413D 2px solid;
+}
+@media (min-width: 1200px) {
+    #callToAction {
+        font-size: 1.3em;
+		padding: 13px 20px;
+		
+		background-color: transparent;
+		color: #00B5AD;
+    }
+	#callToAction:hover {
+		background-color: #00B5AD;
+		color: #FFD400;
+	}
+}
+
+/**/
+/*Social Media*/
+/**/
+
+#socialMedia {
+	width: 300px;
+	margin: 0 auto;
+}
+
+#socialIcons {
+	color: white;
+	list-style: none;
+	margin-top: 40px;
+	padding: 0;
+	width: 100%;
+	
+	text-align: center;
+}
+@media (min-width: 1200px) {
+	#socialIcons {
+		margin-top: 60px;
+	}
+	#callToAction {
+		margin-top: 60px;
+	}
+}
+
+#socialIcons li {
+	float: left;
+	width: 25%;
+	margin-bottom: 40px;
+}
+@media (min-height: 575px) {
+	#socialIcons li {
+		margin-bottom: 0;
+	}
+}
+
+.socialImage {
+	height: 40px;
+}
+
+@media (min-width: 1200px) {
+	#socialIcons li svg:hover path {
+		-webkit-transition: 0.2s all;
+		transition: 0.2s all;
+		fill: #FFD400;
+	}
+}
+

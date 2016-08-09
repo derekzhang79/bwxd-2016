@@ -1,0 +1,57 @@
+/* Import fonts */
+@font-face {
+    font-family: 'Calibre';
+    src: url("fonts/CalibreWeb-Semibold.woff");
+    
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: url("fonts/CalibreWeb-Regular.woff");
+    
+    font-weight: 300;
+}
+
+body {
+    font-family: 'Calibre', sans-serif;
+}
+
+/* Content types */
+p {
+    padding: 0;
+    margin: 0;
+	line-height: 1.35em;
+	font-size: 1.3em;
+    
+    margin-bottom: 15px;
+	
+	transition: all 0.2s;
+}
+h3 {
+    padding: 0;
+    margin: 0;
+	font-size: 1.3em;
+    
+    margin-bottom: 15px;
+	
+	transition: all 0.2s;
+}
+h1 {		
+    padding: 0;
+    margin: 0;
+	font-size: 2.3em;
+
+/*    margin-bottom: 30px;*/
+	
+	transition: all 0.2s;
+}
+
+.capsTitle {
+	letter-spacing: 0.1em;
+}
+.navTitle {
+	font-size: 1.5em;
+}
+ul li a {
+	font-size: 1.1em;
+}
