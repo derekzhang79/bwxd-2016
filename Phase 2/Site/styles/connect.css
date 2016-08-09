@@ -45,6 +45,14 @@
 	margin-bottom: 5px;
 }
 
+@media (min-width: 1200px) {
+	.socialContactDiv a svg:hover path {
+		-webkit-transition: 0.2s all;
+		transition: 0.2s all;
+		fill: #FFD400;
+	}
+}
+
 /**/
 /* Responsive */
 /**/
