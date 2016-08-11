@@ -28,9 +28,7 @@ red    - #EF413D
 	}
 }
 
-.scheduleToggleArrow {
-	width: 35px;
-	
+.scheduleToggleArrow {	
 	transition: 0.2s all;
 	-webkit-transition: 0.2s all;
 }
@@ -38,6 +36,10 @@ red    - #EF413D
 /**/
 /* Schedule Day */
 /**/
+.scheduleDayBuffer {
+/*	display: block;*/
+	height: 60px;
+}
 
 .scheduleDayToggle {
 	width: 100vw;
@@ -57,6 +59,10 @@ red    - #EF413D
 }
 #scheduleDayToggle-3 {
 	background-color: #EF413D;
+}
+
+.scheduleDayToggleArrow {
+	width: 35px;
 }
 
 .scheduleDayToggle img {
@@ -100,6 +106,18 @@ red    - #EF413D
 	padding-left: 15px;
 	padding-bottom: 5px;
 	margin-bottom: 30px;
+}
+
+.scheduleEventTitle {
+	display: inline;
+	vertical-align: middle;
+}
+.scheduleEventContentToggleArrow {
+	display: inline-block;
+	vertical-align: middle;
+	
+	width: 20px;
+	margin-left: 8px;
 }
 
 .scheduleEventDetails {
