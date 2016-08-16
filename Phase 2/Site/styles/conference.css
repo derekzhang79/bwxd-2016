@@ -36,9 +36,9 @@ red    - #EF413D
 /**/
 /* Schedule Day */
 /**/
+
 .scheduleDayBuffer {
-/*	display: block;*/
-	height: 60px;
+	height: 30px;
 }
 
 .scheduleDayToggle {

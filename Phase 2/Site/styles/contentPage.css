@@ -61,6 +61,7 @@
 }
 .content {
 	max-width: 650px;
+	margin-bottom: 90px;
 }
 @media (min-width: 680px) {
 	.content {
