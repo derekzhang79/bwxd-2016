@@ -4,3 +4,21 @@
 	background: -webkit-linear-gradient(transparent, transparent),
                  url(../images/banners/sponsors.jpg) no-repeat;
 }
+
+.sponsorDiv {
+	padding-top: 30px;
+}
+
+.sponsorLogo {
+	margin-bottom: 30px;
+}
+
+#autodeskLogo {
+	width: 100%;
+	max-width: 500px;
+}
+
+#ufbLogo {
+	width: 50%;
+	max-width: 250px;
+}
