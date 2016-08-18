@@ -11,10 +11,18 @@ $(window).resize(function(resizeEvent){
 
 function layout() {
 	var navbar = $('.navbarDiv').first();
-    if ($(window).width() < desktopWidth) {
+	var navbarLogo = $('#navbarLogo');
+
+	console.log($(window).scrollTop())
+    if ($(window).width() < desktopWidth || ($(window).scrollTop() > 0 && $(window).height() <= 650)) {
         navbar.css('border-bottom', '2px solid #00B5AD');
-    } else {
+		navbar.css('background-color', 'white');
+    }else {
         navbar.css('border-bottom', 'none');
+		
+		if ($(window).width() > desktopWidth) {
+			navbar.css('background-color', 'transparent');
+		}
     }
 	
     $('#menu').css('margin-top', navbar.height());
