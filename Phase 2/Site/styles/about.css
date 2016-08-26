@@ -11,7 +11,7 @@
 /**/
 
 @media (min-width: 1200px) {
-	#team {
+	.photoSection {
 		width: calc(130%);
 	}
 }
@@ -22,7 +22,7 @@
 	left: 0;
 }
 
-#photosSubsection {
+#photosSubsection-Team {
 	margin-top: calc(100vw * (1267 / 1920) + 30px);
 }
 
@@ -40,7 +40,7 @@
 		width: 100%;
 		position: relative;
 	}
-	#photosSubsection {
+	#photosSubsection-Team {
 		margin-top: 30px;
 	}
 	.personProfile {
@@ -98,8 +98,6 @@
                  url('../images/team/Callie.jpg') no-repeat;
 	background-size: contain;
 }
-
-
 #cameron .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team/Cameron.jpg') no-repeat;
@@ -403,4 +401,105 @@
 					 url('../images/team/fun-Zoe.jpg') no-repeat;
 		background-size: contain;
 	}
+}
+
+/* Alumni */
+
+#alum-Isabella .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Isabella.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Isabella.png') no-repeat;
+	background-size: contain;
+}
+#alum-Isaac .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Isaac.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Isaac.png') no-repeat;
+	background-size: contain;
+}
+#alum-Joanna .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Joanna.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Joanna.png') no-repeat;
+	background-size: contain;
+}
+#alum-Katharine .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Katharine.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Katharine.png') no-repeat;
+	background-size: contain;
+}
+#alum-Lily .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Lily.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Lily.png') no-repeat;
+	background-size: contain;
+}
+#alum-Mark .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Mark.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Mark.png') no-repeat;
+	background-size: contain;
+}
+#alum-Matt .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Matt.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Matt.png') no-repeat;
+	background-size: contain;
+}
+#alum-Mike .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Mike.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Mike.png') no-repeat;
+	background-size: contain;
+}
+#alum-Minsoo .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Minsoo.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Minsoo.png') no-repeat;
+	background-size: contain;
+}
+#alum-Raaj .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Raaj.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Raaj.jpg') no-repeat;
+	background-size: contain;
+}
+#alum-Sophia .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Sophia.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Sophia.png') no-repeat;
+	background-size: contain;
+}
+#alum-Tim .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Tim.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Tim.png') no-repeat;
+	background-size: contain;
+}
+#alum-Veronica .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Veronica.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Veronica.png') no-repeat;
+	background-size: contain;
+}
+#alum-Yan .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Yan.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Yan.png') no-repeat;
+	background-size: contain;
 }
