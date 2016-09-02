@@ -13,6 +13,15 @@ red    - #EF413D
                  url(../images/banners/conference.jpg) no-repeat;
 }
 
+#interplayIcon {
+	width: 100%;
+}
+@media (min-width: 500px) {
+	#interplayIcon {
+		width: 50%;
+	}
+}
+
 /**/
 /* Schedule */
 /**/
