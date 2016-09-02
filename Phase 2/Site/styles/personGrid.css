@@ -1,0 +1,56 @@
+@media (min-width: 1200px) {
+	.photoSection {
+		width: calc(130%);
+	}
+	.personProfile {
+		width: 20%;
+		margin-right: 5%;
+	}
+}
+.personProfile {
+	float: left;
+	width: 40%;
+	margin-right: 10%;
+	margin-top: 15px;
+	
+	position: relative;
+}
+.personImg-border {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	
+	pointer-events: none;
+}
+.personLink-img {
+	border-radius: 50%;
+	display: inline-block;
+	width: 100%;
+	padding-top: 100%; /*to set the same as width, because height: 100% isn't working*/
+}
+
+.personLink-txt {
+	font-size: 1.2em;
+}
+.schoolTag {
+	font-size: 1.2em;
+}
+
+.personLink-txt {
+	font-size: 1.2em;
+}
+.schoolTag {
+	font-size: 1.2em;
+}
+
+.nameBreak {
+	display: none;
+}
+
+@media (max-width: 511px), (min-width: 1200px) and (max-width: 1385px) {
+	.nameBreak {
+		display: block;
+	}
+}

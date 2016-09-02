@@ -152,3 +152,181 @@ red    - #EF413D
 	text-align: right;
 	width: 103px;
 }
+
+/* Presenters */
+
+#presenter-AllenPenniman .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/AllenPenniman.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/AllenPenniman.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-BoriFeher .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/BoriFeher.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/BoriFeher.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-CesarHidalgo .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/CesarHidalgo.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/CesarHidalgo.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-ChristinaAgipakis .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/ChristinaAgipakis.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/ChristinaAgipakis.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-CraigDykers .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/CraigDykers.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/CraigDykers.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-DhairyaPujara .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/DhairyaPujara.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/DhairyaPujara.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-EllenSu .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/EllenSu.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/EllenSu.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-GenaWirth .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/GenaWirth.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/GenaWirth.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-HannahChung .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/HannahChung.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/HannahChung.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-ImranHafiz .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/ImranHafiz.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/ImranHafiz.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-IngridBurrington .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/IngridBurrington.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/IngridBurrington.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-JAndrewScanlan .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/JAndrewScanlan.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/JAndrewScanlan.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-JuhanSonin .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/JuhanSonin.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/JuhanSonin.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-KatieCafaro .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/KatieCafaro.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/KatieCafaro.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-KursatOzenc .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/KursatOzenc.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/KursatOzenc.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-LeahChung .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/LeahChung.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/LeahChung.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-LelandKirshen .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/LelandKirshen.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/LelandKirshen.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-NateStorring .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/NateStorring.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/NateStorring.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-OlgaElizarova .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/OlgaElizarova.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/OlgaElizarova.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-PhilRoss .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/PhilRoss.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/PhilRoss.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-SabrinaDorsainvil .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/SabrinaDorsainvil.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/SabrinaDorsainvil.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-SalomeAsega .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/SalomeAsega.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/SalomeAsega.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-SamanthaDempsey .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/SamanthaDempsey.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/SamanthaDempsey.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-TegaBrain .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/TegaBrain.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/TegaBrain.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-VirgilWong .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/VirgilWong.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/VirgilWong.jpg') no-repeat;
+	background-size: contain;
+}
