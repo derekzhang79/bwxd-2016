@@ -139,6 +139,10 @@ red    - #EF413D
 
 .scheduleEventContentToggle {
 	margin: 30px 0 0 0;
+	
+	/* pointer and hand are the same for different browsers */
+	cursor: pointer; 
+	cursor: hand;
 }
 
 .scheduleEventContent {
