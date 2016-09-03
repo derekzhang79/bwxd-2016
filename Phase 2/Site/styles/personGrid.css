@@ -60,13 +60,15 @@
 /**/
 
 #modalPopup {
+	display: none;
+	
 	position: relative;
 	
-	background-color: wheat;
+	background-color: white;
 	border: 2px solid #00B5AD;
 	
-	width: 80%;	
-	max-height: 80vh;
+	width: 60%;	
+	max-height: 70vh;
 	overflow: scroll;
 	
 	margin: 0 auto;
@@ -75,12 +77,17 @@
 	
 /*	z-index:1000000;*/
 }
+.imgDiv-modal {
+	position: relative;
+	margin-top: 15px;
+	
+	margin-bottom: 60px;
+}
 .personImg-border-modal {
-	width: 60vw;
-	max-width: 320px;
+	width: 200px;
 	
 	position: absolute;
-	top: 30px;
+	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
 	-webkit-transform: translateX(-50%);
@@ -91,8 +98,8 @@
 }
 .personImg-modal {
 	border-radius: 50%;
-	width: 60vw;
-	padding-top: 60vw; /*to set the same as width, because height: 100% isn't working */
+	width: 200px;
+	padding-top: 200px; /*to set the same as width, because height: 100% isn't working */
 	
 	margin: 0 auto;
 	
@@ -102,6 +109,50 @@
 				 url('../images/team/fun-Eitan.jpg') no-repeat;
 	background-size: contain;
 }
+@media (min-width: 600px) {
+	.personImg-border-modal {
+		width: 300px;
+	}
+	.personImg-modal {
+		width: 300px;
+		padding-top: 300px; /*to set the same as width, because height: 100% isn't working */
+	}
+}
+.bio-modal {
+	margin-bottom: 10px;
+}
+
+/* Modal desktop */
+
+@media (min-width: 1200px) {
+	#modalPopup {
+		width: 800px;
+/*		overflow: hidden;*/
+	}
+	.imgDiv-modal {
+		float: left;
+		margin-bottom: 0;
+	}
+	.textDiv-modal {
+		float: right;
+		width: calc(100% - 330px);
+		
+		margin-top: 15px;
+		margin-bottom: 15px;
+		max-height: 60vh;
+		min-height: 300px;
+		overflow: scroll;
+	}
+	
+	.personImg-border-modal {
+		width: 300px;
+	}
+	.personImg-modal {
+		width: 300px;
+		padding-top: 300px; /*to set the same as width, because height: 100% isn't working */
+	}
+}
+
 
 #lean_overlay {
     position: fixed;
