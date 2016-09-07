@@ -74,16 +74,31 @@
 	margin: 0 auto;
 	
 	padding: 30px;
-	
-/*	z-index:1000000;*/
 }
-.imgDiv-modal {
+#modalPopup .modal_close {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	
+	width: 20px;
+}
+@media (min-width: 1200px) {
+	#modalPopup .modal_close svg .X {
+		-webkit-transition: 0.2s all;
+		transition: 0.2s all;
+	}
+	#modalPopup .modal_close svg:hover .X {
+		fill: #FFD400;
+	}
+}
+
+#modalPopup .imgDiv {
 	position: relative;
 	margin-top: 15px;
 	
 	margin-bottom: 60px;
 }
-.personImg-border-modal {
+#modalPopup .personImg-border {
 	width: 200px;
 	
 	position: absolute;
@@ -96,29 +111,25 @@
 	
 	pointer-events: none;
 }
-.personImg-modal {
+#modalPopup .personImg {
 	border-radius: 50%;
 	width: 200px;
 	padding-top: 200px; /*to set the same as width, because height: 100% isn't working */
 	
 	margin: 0 auto;
 	
-	background: linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Eitan.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-				 url('../images/team/fun-Eitan.jpg') no-repeat;
 	background-size: contain;
 }
 @media (min-width: 600px) {
-	.personImg-border-modal {
+	#modalPopup .personImg-border {
 		width: 300px;
 	}
-	.personImg-modal {
+	#modalPopup .personImg {
 		width: 300px;
 		padding-top: 300px; /*to set the same as width, because height: 100% isn't working */
 	}
 }
-.bio-modal {
+#modalPopup .bio {
 	margin-bottom: 10px;
 }
 
@@ -129,11 +140,11 @@
 		width: 800px;
 /*		overflow: hidden;*/
 	}
-	.imgDiv-modal {
+	#modalPopup .imgDiv {
 		float: left;
 		margin-bottom: 0;
 	}
-	.textDiv-modal {
+	#modalPopup .textDiv {
 		float: right;
 		width: calc(100% - 330px);
 		
@@ -144,10 +155,10 @@
 		overflow: scroll;
 	}
 	
-	.personImg-border-modal {
+	#modalPopup .personImg-border {
 		width: 300px;
 	}
-	.personImg-modal {
+	#modalPopup .personImg {
 		width: 300px;
 		padding-top: 300px; /*to set the same as width, because height: 100% isn't working */
 	}
