@@ -113,10 +113,29 @@ red    - #EF413D
 /**/
 
 .scheduleEvent-inner {
-	border-left: 10px solid #00B5AD;
+	margin-bottom: 30px;
+}
+.colorblock {
+	position: relative;
+	
+	border-left: 10px solid black;
 	padding-left: 15px;
 	padding-bottom: 5px;
 	margin-bottom: 30px;
+	
+	
+}
+.colorblock-blue {
+	border-color: #00B5AD;
+}
+.colorblock-yellow {
+	border-color: #FFD400;
+}
+.colorblock-purple {
+	border-color: #241F59;
+}
+.colorblock-red {
+	border-color: #EF413D;
 }
 
 .scheduleEventTitle {
@@ -154,7 +173,7 @@ red    - #EF413D
 }
 
 @media (min-width: 680px) {
-	.scheduleEvent-inner {
+	.colorblock {
 		margin-left: 118px;
 	}
 }
@@ -163,6 +182,9 @@ red    - #EF413D
 	float: left;
 	font-weight: 700;
 	margin-top: 5px;
+	
+	position: absolute;
+	left: -128px;
 	
 	text-align: right;
 	width: 103px;
