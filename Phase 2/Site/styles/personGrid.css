@@ -46,13 +46,7 @@
 }
 
 .nameBreak {
-	display: none;
-}
-
-@media (max-width: 511px), (min-width: 1200px) and (max-width: 1385px) {
-	.nameBreak {
-		display: block;
-	}
+	display: none; /* visibility settings in individual page styles */
 }
 
 /**/
