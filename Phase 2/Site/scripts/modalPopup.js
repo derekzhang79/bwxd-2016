@@ -29,7 +29,7 @@ var bioInfo = {
 	'presenter-CarolineMcAndrews-name'  : 'CAROLINE MCANDREWS',
 	'presenter-CesarHidalgo-name'       : 'CESAR HIDALGO',
 	'presenter-ChrisNovello-name'       : 'CHRIS NOVELLO',
-	'presenter-ChristinaAgipakis-name'  : 'CHRISTINA AGIPAKIS',
+	'presenter-ChristinaAgapakis-name'  : 'CHRISTINA Agapakis',
 	'presenter-CraigDykers-name'        : 'CRAIG DYKERS',
 	'presenter-CynthiaPoon-name'        : 'CYNTHIA POON',
 	'presenter-DanaChisnel-name'        : 'DANA CHISNEL',
@@ -94,7 +94,7 @@ var bioInfo = {
 	'presenter-CarolineMcAndrews-img'  : 'url(images/presenters/CarolineMcAndrews.jpg)',
 	'presenter-CesarHidalgo-img'       : 'url(images/presenters/CesarHidalgo.jpg)',
 	'presenter-ChrisNovello-img'       : 'url(images/presenters/ChrisNovello.jpg)',
-	'presenter-ChristinaAgipakis-img'  : 'url(images/presenters/ChristinaAgipakis.jpg)',
+	'presenter-ChristinaAgapakis-img'  : 'url(images/presenters/ChristinaAgapakis.jpg)',
 	'presenter-CraigDykers-img'        : 'url(images/presenters/CraigDykers.jpg)',
 	'presenter-CynthiaPoon-img'        : 'url(images/presenters/CynthiaPoon.jpg)',
 	'presenter-DanaChisnel-img'        : 'url(images/presenters/DanaChisnel.jpg)',
@@ -159,7 +159,7 @@ var bioInfo = {
 	'presenter-CarolineMcAndrews-bio'  : 'Caroline McAndrews has worked in the nonprofit sector for 14 years conducting research and assessments, writing, presenting, and running programs. She’s worked with academics, activists, funders, and community members to explore questions such as how to develop the next generation of leadership and engage clients in social change. She received her BA in Urban Studies with a focus in architecture from Stanford University. Caroline is also consulting for the Building Movement Project, where she recently served as the Director of Research and Documentation.',
 	'presenter-CesarHidalgo-bio'       : "César A. Hidalgo leads the Macro Connections group at The MIT Media Lab and is an Associate Professor of Media Arts and Sciences at MIT. Hidalgo's work focuses on understanding the intelligence of systems, with a particular focus on economic development and the creation of data visualization engines. Hidalgo is the author of Why Information Grows, the co-author ofThe Atlas of Economic Complexity and a co-founder of Datawheel LLC. His academic publications have been cited more than 7,000 times.",
 	'presenter-ChrisNovello-bio'       : 'Chris Novello graduated from Brown University and has worked as adjunct faculty at RISD and as a visiting scholar at Brown University. He founded Illuica, where he designs and builds patchbay instruments for connecting computer programs. He also worked on the speculative design project, Bitelabs, which grows meat from celebrity tissue samples to make artisanal salami and on Genecoin, a project that samples DNA, turns it into data, and stores it in the Bitcoin network.',
-	'presenter-ChristinaAgipakis-bio'  : 'Christina Agapakis is creative director of Ginkgo Bioworks, a biological design company growing cultured products for partners across many industries. Her work brings together biologists, engineers, designers, artists, and social scientists to explore the future of biotechnology. During her PhD at Harvard, she worked on producing hydrogen fuel in bacteria and making photosynthetic animals. She has taught designers at the Art Center College of Design and biomolecular engineers at UCLA, and she once made cheese using bacteria from the human body.',
+	'presenter-ChristinaAgapakis-bio'  : 'Christina Agapakis is creative director of Ginkgo Bioworks, a biological design company growing cultured products for partners across many industries. Her work brings together biologists, engineers, designers, artists, and social scientists to explore the future of biotechnology. During her PhD at Harvard, she worked on producing hydrogen fuel in bacteria and making photosynthetic animals. She has taught designers at the Art Center College of Design and biomolecular engineers at UCLA, and she once made cheese using bacteria from the human body.',
 	'presenter-CraigDykers-bio'        : 'Craig Dykers,one of the Founding Partners of Snøhetta, has led many prominent projects internationally, including the Alexandria Library in Egypt, the Norwegian National Opera and Ballet in Norway, the National September 11 Memorial Museum Pavilion in New York City, and the San Francisco MOMA Expansion. He’s interested in design as a promoter of social and physical well-being. Craig is currently leading the design of the new Times Square Reconstruction in New York City.',
 	'presenter-CynthiaPoon-bio'        : "Cynthia Poon (RISD ID ‘13) is a toy designer who works/plays alongside Maeve Jopson as co-founder of Increment, a social venture promoting inclusion through play and collaboration between occupational therapists, teachers, parents, and kids through universal and human-centered design. Increment was recently awarded the 2016 Parents' Choice Gold Award, has been recognized by Core77, Ashoka Changemakers, and was named a 2015 Mass Challenge Finalist.",
 	'presenter-DanaChisnel-bio'        : 'Dana E. Chisnell, co-director of the Center for Civic Design, is an elections nerd who researches design in elections. She has trained thousands of election officials on plain language and usability. She’s the lead on a project to develop a series of Field Guides To Ensuring Voter Intent. The Field Guides are designed to be quick, easy, and accessible help for local election officials to do the best possible design.',
@@ -201,7 +201,9 @@ var bioInfo = {
 };
 
 function populateModal(elt) {
-	var id = elt.parent('.personProfile').attr('id');
+	var id = elt.parent().attr('id');
+	console.log(id);
+	
 	var name = bioInfo[id + '-name'];
 	var img = bioInfo[id + '-img'];
 	var bio = bioInfo[id + '-bio'];

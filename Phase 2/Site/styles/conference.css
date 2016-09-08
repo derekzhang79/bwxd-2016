@@ -141,6 +141,8 @@ red    - #EF413D
 .scheduleEventTitle {
 	display: inline;
 	vertical-align: middle;
+	
+	font-size: 2em;
 }
 .scheduleEventContentToggleArrow {
 	display: inline-block;
@@ -181,13 +183,13 @@ red    - #EF413D
 .scheduleEventTimeLarge {
 	float: left;
 	font-weight: 700;
-	margin-top: 5px;
+	margin-top: 2px;
 	
 	position: absolute;
 	left: -128px;
 	
 	text-align: right;
-	width: 103px;
+	width: 104px;
 }
 
 /* Presenters */
@@ -278,11 +280,11 @@ red    - #EF413D
                  url('../images/presenters/ChrisNovello.jpg') no-repeat;
 	background-size: contain;
 }
-#presenter-ChristinaAgipakis .personLink-img {
+#presenter-ChristinaAgapakis .personLink-img {
 	background: linear-gradient(transparent, transparent),
-                 url('../images/presenters/ChristinaAgipakis.jpg') no-repeat;
+                 url('../images/presenters/ChristinaAgapakis.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/presenters/ChristinaAgipakis.jpg') no-repeat;
+                 url('../images/presenters/ChristinaAgapakis.jpg') no-repeat;
 	background-size: contain;
 }
 #presenter-CraigDykers .personLink-img {
