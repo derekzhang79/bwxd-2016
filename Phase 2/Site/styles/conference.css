@@ -23,6 +23,9 @@ red    - #EF413D
 		width: 50%;
 	}
 }
+#themeQuote {
+	font-weight: 900;
+}
 
 /**/
 /* Schedule */
