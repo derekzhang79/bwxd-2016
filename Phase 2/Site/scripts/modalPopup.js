@@ -34,7 +34,7 @@ var bioInfo = {
 	'presenter-CynthiaPoon-name'        : 'CYNTHIA POON',
 	'presenter-DanaChisnel-name'        : 'DANA CHISNEL',
 	'presenter-DanSheehan-name'         : 'DAN SHEEHAN',
-	'presenter-DavidRojas-Leon-name'    : 'DAVID ROJAS-LEON',
+	'presenter-DavidRojas-Leon-name'    : 'DAVID ROJAS-LEÓN',
 	'presenter-DhairyaPujara-name'      : 'DHAIRYA PUJARA',
 	'presenter-EllenSu-name'            : 'ELLEN SU',
 	'presenter-EmilyHerrick-name'       : 'EMILY HERRICK',
