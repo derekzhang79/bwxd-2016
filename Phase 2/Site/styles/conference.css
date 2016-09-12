@@ -240,18 +240,18 @@ red    - #EF413D
                  url('../images/presenters/AugustLehrecke.jpg') no-repeat;
 	background-size: contain;
 }
-#presenter-AyodamolaOkunseinde .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/presenters/AyodamolaOkunseinde.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/presenters/AyodamolaOkunseinde.jpg') no-repeat;
-	background-size: contain;
-}
 #presenter-AzminaAlimohd .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/presenters/AzminaAlimohd.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/presenters/AzminaAlimohd.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-BeckySlogeris .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/BeckySlogeris.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/BeckySlogeris.jpg') no-repeat;
 	background-size: contain;
 }
 #presenter-BoriFeher .personLink-img {
@@ -499,6 +499,13 @@ red    - #EF413D
                  url('../images/presenters/MeganKelly.jpg') no-repeat;
 	background-size: contain;
 }
+#presenter-MikeWeikert .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/MikeWeikert.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/MikeWeikert.jpg') no-repeat;
+	background-size: contain;
+}
 #presenter-MikhaelaDietch .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/presenters/MikhaelaDietch.jpg') no-repeat;
@@ -548,18 +555,18 @@ red    - #EF413D
                  url('../images/presenters/SabrinaDorsainvil.jpg') no-repeat;
 	background-size: contain;
 }
-#presenter-SalomeAsega .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/presenters/SalomeAsega.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/presenters/SalomeAsega.jpg') no-repeat;
-	background-size: contain;
-}
 #presenter-SamanthaDempsey .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/presenters/SamanthaDempsey.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/presenters/SamanthaDempsey.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-SaraMamo .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/SaraMamo.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/SaraMamo.jpg') no-repeat;
 	background-size: contain;
 }
 #presenter-TadHirsch .personLink-img {
