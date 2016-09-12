@@ -408,9 +408,9 @@
 }
 #alum-Mike .personLink-img {
 	background: linear-gradient(transparent, transparent),
-                 url('../images/alumni/Mike.png') no-repeat;
+                 url('../images/alumni/Mike.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/alumni/Mike.png') no-repeat;
+                 url('../images/alumni/Mike.jpg') no-repeat;
 	background-size: contain;
 }
 #alum-Minsoo .personLink-img {
@@ -427,6 +427,13 @@
                  url('../images/alumni/Raaj.jpg') no-repeat;
 	background-size: contain;
 }
+#alum-Sharon .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Sharon.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Sharon.jpg') no-repeat;
+	background-size: contain;
+}
 #alum-Sophia .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/alumni/Sophia.png') no-repeat;
@@ -434,11 +441,25 @@
                  url('../images/alumni/Sophia.png') no-repeat;
 	background-size: contain;
 }
+#alum-Steve .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Steve.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Steve.jpg') no-repeat;
+	background-size: contain;
+}
 #alum-Tim .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/alumni/Tim.png') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/alumni/Tim.png') no-repeat;
+	background-size: contain;
+}
+#alum-Tino .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Tino.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Tino.jpg') no-repeat;
 	background-size: contain;
 }
 #alum-Veronica .personLink-img {
