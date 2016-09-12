@@ -7,7 +7,7 @@ $('.inpagelink').click(function(event){
 var navbar = $('.navbarDiv').first();
 var section = $('.section').first();
 function scrollToID(ID){
-	var scroll = $(ID).offset().top - navbar.height() - parseInt(section.css('margin-top'));
+	var scroll = $(ID).offset().top - navbar.height() - parseInt($(ID).css('margin-top'));
 	if (ID === '#header') {
 		scroll = 0;
 	}

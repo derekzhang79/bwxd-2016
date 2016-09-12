@@ -208,10 +208,13 @@ position: absolute;
 .submenu ul li {
 	margin-bottom: 30px;
 }
-
 .submenu ul li a br {
 	display: inherit;
 }
+.submenu .menu-l2 {
+	margin-left: 30px;
+}
+
 @media (min-width: 1380px) {
 	.submenu ul li a br {
 		display: none;

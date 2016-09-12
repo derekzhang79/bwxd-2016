@@ -51,6 +51,10 @@ red    - #EF413D
 /* Schedule Day */
 /**/
 
+#scheduleSubsection {
+	margin-top: 0;
+}
+
 .scheduleDayBuffer {
 	height: 30px;
 }
