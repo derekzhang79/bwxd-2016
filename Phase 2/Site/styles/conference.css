@@ -120,17 +120,14 @@ red    - #EF413D
 /**/
 
 .scheduleEvent-inner {
-	margin-bottom: 30px;
+	padding-bottom: 30px;
 }
 .colorblock {
 	position: relative;
 	
 	border-left: 10px solid black;
 	padding-left: 15px;
-	padding-bottom: 5px;
 	margin-bottom: 30px;
-	
-	
 }
 .colorblock-blue {
 	border-color: #00B5AD;
@@ -168,8 +165,6 @@ red    - #EF413D
 }
 
 .scheduleEventContentToggle {
-	margin: 30px 0 0 0;
-	
 	/* pointer and hand are the same for different browsers */
 	cursor: pointer; 
 	cursor: hand;
