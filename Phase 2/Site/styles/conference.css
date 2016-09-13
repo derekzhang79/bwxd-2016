@@ -478,6 +478,13 @@ red    - #EF413D
                  url('../images/presenters/LeslieFontana.jpg') no-repeat;
 	background-size: contain;
 }
+#presenter-LeviBedall .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/LeviBedall.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/LeviBedall.jpg') no-repeat;
+	background-size: contain;
+}
 #presenter-LisaRaiola .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/presenters/LisaRaiola.jpg') no-repeat;

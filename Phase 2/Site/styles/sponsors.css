@@ -8,17 +8,20 @@
 .sponsorDiv {
 	padding-top: 30px;
 }
+.sponsorDiv h3 {
+	margin-bottom: 60px;
+}
 
 .sponsorLogo {
 	margin-bottom: 50px;
 }
 
-#autodeskLogo {
+.lineLogo {
 	width: 100%;
 	max-width: 500px;
 }
 
-#ufbLogo {
+.squareLogo {
 	width: 60%;
 	max-width: 250px;
 }
