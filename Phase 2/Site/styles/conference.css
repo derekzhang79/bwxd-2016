@@ -196,10 +196,7 @@ red    - #EF413D
 
 /* Presenters */
 
-@media 
-	(max-width: 590px), 
-	(min-width: 675px) and (max-width: 710px), 
-	(min-width: 1200px) and (max-width: 1385px) {
+@media (max-width: 590px), (min-width: 750px){
 	.nameBreak {
 		display: block;
 	}

@@ -2,6 +2,9 @@
 	.photoSection {
 		width: calc(130%);
 	}
+	.photoSectionText {
+		width: 70%;
+	}
 	.personProfile {
 		width: 20%;
 		margin-right: 5%;
@@ -15,6 +18,25 @@
 	
 	position: relative;
 }
+@media (min-width: 750px) {
+	.personProfile {
+		width: 28%;
+		margin-right: 5%;
+	}
+	.nameBreak {
+		display: block;
+	}
+}
+@media (min-width: 1200px) {
+	.personProfile {
+		width: 20%;
+		margin-right: 5%;
+	}
+}
+.nameBreak {
+	display: none; /* visibility settings in individual page styles */
+}
+
 .personImg-border {
 	width: 100%;
 	position: absolute;
@@ -33,9 +55,19 @@
 
 .personLink-txt {
 	font-size: 1.2em;
+	color: #241F59;
+	border-bottom: 1px solid #241F59;
 }
+@media (min-width: 1200px) {
+	.personLink-txt:hover {
+		color: #FFD400;
+		border-bottom: 1px solid #FFD400;
+	}
+}
+
 .schoolTag {
 	font-size: 1.2em;
+	margin-top: 5px;
 }
 
 .personLink-txt {
@@ -43,10 +75,6 @@
 }
 .schoolTag {
 	font-size: 1.2em;
-}
-
-.nameBreak {
-	display: none; /* visibility settings in individual page styles */
 }
 
 /**/
