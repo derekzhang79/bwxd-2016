@@ -155,6 +155,18 @@
 	margin-bottom: 10px;
 }
 
+#modalPopup .bio a {
+	color: #241F59;
+	border-bottom: 1px #241F59 solid;
+}
+
+@media (min-width: 1200px) {
+	#modalPopup .bio a:hover {
+		color: #FFD400;
+		border-bottom: 1px #FFD400 solid;
+	}
+}
+
 /* Modal desktop */
 
 @media (min-width: 1200px) {

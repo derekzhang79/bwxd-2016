@@ -454,6 +454,13 @@ red    - #EF413D
                  url('../images/presenters/KursatOzenc.jpg') no-repeat;
 	background-size: contain;
 }
+#presenter-LaurenGardner .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/LaurenGardner.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/LaurenGardner.jpg') no-repeat;
+	background-size: contain;
+}
 #presenter-LeahChung .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/presenters/LeahChung.jpg') no-repeat;
@@ -487,6 +494,13 @@ red    - #EF413D
                  url('../images/presenters/LisaRaiola.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/presenters/LisaRaiola.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-ManoloAmpudia .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/ManoloAmpudia.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/ManoloAmpudia.jpg') no-repeat;
 	background-size: contain;
 }
 #presenter-MariaNavia .personLink-img {
@@ -627,6 +641,13 @@ red    - #EF413D
                  url('../images/presenters/TegaBrain.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/presenters/TegaBrain.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-ThatcherBean .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/ThatcherBean.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/ThatcherBean.jpg') no-repeat;
 	background-size: contain;
 }
 #presenter-VirgilWong .personLink-img {
