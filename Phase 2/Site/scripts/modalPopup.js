@@ -318,7 +318,30 @@ var bioInfo = {
 	'presenter-TaylorAlarcon-bio'      : 'Taylor is a senior undergraduate at Brown University. Project Leader of Brown STEAM, Taylor is double concentrating in Applied Mathematics and Philosophy, with interests in using both left and right sides of the brain to build and carry out innovative solutions/ideas that have a substantial impact on society. Outside of STEAM, Taylor is heavily involved in various mentorship and social justice activities on campus.',
 	'presenter-TegaBrain-bio'          : 'Tega Brain is an Australian born artist and environmental engineer whose eccentric engineering intersects art, ecology & engineering. Her work has been exhibited worldwide and she is currently a fellow with the Processing Foundation. Tega is an Assistant Professor of New Media at SUNY Purchase and works with the School for Poetic Computation. She has been artist in residence at Eyebeam Art and Technology Center in New York City and the Environmental Health Clinic.',
 	'presenter-ThatcherBean-bio'       : 'Thatcher Bean is the Advocacy and Media Producer for MASS Design Group. He joined in 2013 to document the construction and use of MASS Design Group’s health infrastructure in Rwanda. The resulting videos accompanied Alan Rick’s TED talk on how buildings can heal communities. Since then he has worked with MASS as a media producer to explore how video can be used as a unique tool to assess and convey the impact of our built environments. Thatcher obtained a BFA from the University of Colorado film studies program.',
-	'presenter-VirgilWong-bio'         : 'Virgil Wong (RISD ‘95) creates art and technologies to transform human health. As CEO of Medical Avatar LLC, he has pioneered medical “time travel” visualizations that have dramatically reduced the incidence of diabetes and heart disease. He is currently Executive Director of Creative Services at Element Solutions, a customer engagement company with technological expertise in healthcare and other industries.Virgil has also exhibited his interactive art installations in museums around the world.'
+	'presenter-VirgilWong-bio'         : 'Virgil Wong (RISD ‘95) creates art and technologies to transform human health. As CEO of Medical Avatar LLC, he has pioneered medical “time travel” visualizations that have dramatically reduced the incidence of diabetes and heart disease. He is currently Executive Director of Creative Services at Element Solutions, a customer engagement company with technological expertise in healthcare and other industries.Virgil has also exhibited his interactive art installations in museums around the world.',
+	
+	'callie-link'   : 'http://www.callieclayton.com/',
+	'cameron-link'  : 'https://www.linkedin.com/in/cameron-absher-8255a310a',
+	'caroline-link' : 'https://www.linkedin.com/in/caroline-turner-992b29a7',
+	'clare-link'    : 'http://clarejessey.co/',
+	'cyrus-link'    : 'http://cyrusmaden.com/',
+	'daniela-link'  : 'https://mx.linkedin.com/in/daniela-longoria-939954a1',
+	'eitan-link'    : 'https://www.linkedin.com/in/eitan-boiarsky-9a6995a3',
+	'evan-link'     : 'https://www.linkedin.com/in/evan-boyd-5a2b2111b',
+	'indhu-link'    : 'https://www.linkedin.com/in/indhusolayappan',
+	'jd-link'       : '#',
+	'lucie-link'    : '#',
+	'maddie-link'   : '#',
+	'mandi-link'    : 'http://www.mandilicai.com',
+	'maria-link'    : 'https://www.linkedin.com/in/maria-russo-61b8618a',
+	'may-link'      : 'https://www.behance.net/maykodama',
+	'maya-link'     : 'https://www.linkedin.com/in/maya-omori-735b37114',
+	'noah-link'     : 'https://www.linkedin.com/in/noah-braendel-44ba7b119',
+	'phoebe-link'   : 'http://www.phoebegallo.com/',
+	'raina-link'    : 'https://www.linkedin.com/in/raina-wellman-a67513101',
+	'taryn-link'    : 'https://www.linkedin.com/in/taryn-oshiro-wachi-781722a3',
+	'teri-link'     : 'https://www.linkedin.com/in/teri-minogue-26733478',
+	'zoe-link'      : 'https://www.linkedin.com/in/zoechinonsoene'
 };
 
 function populateModal(elt) {
