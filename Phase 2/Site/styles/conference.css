@@ -622,6 +622,13 @@ red    - #EF413D
                  url('../images/presenters/StefanoBloch.jpg') no-repeat;
 	background-size: contain;
 }
+#presenter-StephanieCaress .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/StephanieCaress.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/StephanieCaress.jpg') no-repeat;
+	background-size: contain;
+}
 #presenter-TadHirsch .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/presenters/TadHirsch.jpg') no-repeat;

@@ -68,12 +68,18 @@
 .schoolTag {
 	font-size: 1.2em;
 	margin-top: 5px;
+	
+/*	margin-bottom: 0;*/
 }
 
 .personLink-txt {
 	font-size: 1.2em;
 }
 .schoolTag {
+	font-size: 1.2em;
+}
+
+.committeeRole {
 	font-size: 1.2em;
 }
 
