@@ -437,11 +437,15 @@ function populateModal(elt) {
 	var name = bioInfo[id + '-name'];
 	var img = bioInfo[id + '-img'];
 	var bio = bioInfo[id + '-bio'];
-//	var bio = bioInfo[id + '-link'];
+	var link = bioInfo[id + '-link'];
 	
 	var modal = $("#modalPopup");
 	
 	modal.find('.personImg').css('background-image', img);
 	modal.find('.name').html(name);
+	modal.find('.name').attr('href', link);
 	modal.find('.bio').html(bio);
+}
+function clickable(elt) {
+	return elt.attr('href') !== '#';
 }
