@@ -84,6 +84,17 @@
 	font-size: 1.0em;
 }
 
+.companyName {
+	position: relative;
+	font-size: 1.2em;
+	top: 5px;
+	
+	color: #241F59;
+	border-bottom: 1px solid #241F59;
+	
+	margin-bottom: 15px;
+}
+
 /**/
 /* Modal Popup */
 /**/

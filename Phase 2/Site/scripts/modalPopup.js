@@ -109,6 +109,7 @@ var bioInfo = {
 	'presenter-TaylorAlarcon-name'      : 'TAYLOR ALARCON',
 	'presenter-TegaBrain-name'          : 'TEGA BRAIN',
 	'presenter-ThatcherBean-name'       : 'THATCHER BEAN',
+	'presenter-ThomasThwaites-name'     : 'THOMAS THWAITES',
 	'presenter-VirgilWong-name'         : 'VIRGIL WONG',
 	
 	'callie-img'   : 'url(images/team/Callie.jpg)',
@@ -215,6 +216,7 @@ var bioInfo = {
 	'presenter-TaylorAlarcon-img'      : 'url(images/presenters/TaylorAlarcon.jpg)',
 	'presenter-TegaBrain-img'          : 'url(images/presenters/TegaBrain.jpg)',
 	'presenter-ThatcherBean-img'       : 'url(images/presenters/ThatcherBean.jpg)',
+	'presenter-ThomasThwaites-img'     : 'url(images/presenters/ThomasThwaites.jpg)',
 	'presenter-VirgilWong-img'         : 'url(images/presenters/VirgilWong.jpg)',
 	
 	'callie-bio'   : "Originally from Dallas, Texas, Callie is a Junior at RISD studying Textiles and concentrating in Nature Culture Sustainability Studies. She ardently believes that science and design are integral to each other and intrinsically linked. Her interests in this relationship drives her work, interests, hopes and goals for the Better World Conference! In her free time, Callie enjoys experimenting with materials, hiking, camping, and reading magazines.",
@@ -321,6 +323,7 @@ var bioInfo = {
 	'presenter-TaylorAlarcon-bio'      : 'Taylor is a senior undergraduate at Brown University. Project Leader of Brown STEAM, Taylor is double concentrating in Applied Mathematics and Philosophy, with interests in using both left and right sides of the brain to build and carry out innovative solutions/ideas that have a substantial impact on society. Outside of STEAM, Taylor is heavily involved in various mentorship and social justice activities on campus.',
 	'presenter-TegaBrain-bio'          : 'Tega Brain is an Australian born artist and environmental engineer whose eccentric engineering intersects art, ecology & engineering. Her work has been exhibited worldwide and she is currently a fellow with the Processing Foundation. Tega is an Assistant Professor of New Media at SUNY Purchase and works with the School for Poetic Computation. She has been artist in residence at Eyebeam Art and Technology Center in New York City and the Environmental Health Clinic.',
 	'presenter-ThatcherBean-bio'       : 'Thatcher Bean is the Advocacy and Media Producer for MASS Design Group. He joined in 2013 to document the construction and use of MASS Design Group’s health infrastructure in Rwanda. The resulting videos accompanied Alan Rick’s TED talk on how buildings can heal communities. Since then he has worked with MASS as a media producer to explore how video can be used as a unique tool to assess and convey the impact of our built environments. Thatcher obtained a BFA from the University of Colorado film studies program.',
+	'presenter-ThomasThwaites-bio'     : 'Thomas Thwaites is a designer exhibited frequently and internationally. His works explore economic, philosophical or techno-social topics across subjects including biology, economics, philosophy, and materials science. He earned an MA in Design Interaction from Royal College of Art and his first book, “The Toaster Project”, was published by Princeton Architectural Press to critical acclaim. It has now been translated into Japanese and Korean editions and was acquired by the Victoria & Albert Museum for their permanent collection. His second book, about his attempt to become a goat, was published in May 2016, and is being translated into Norwegian and Korean.',
 	'presenter-VirgilWong-bio'         : 'Virgil Wong (RISD ‘95) creates art and technologies to transform human health. As CEO of Medical Avatar LLC, he has pioneered medical “time travel” visualizations that have dramatically reduced the incidence of diabetes and heart disease. He is currently Executive Director of Creative Services at Element Solutions, a customer engagement company with technological expertise in healthcare and other industries.Virgil has also exhibited his interactive art installations in museums around the world.',
 	
 	'callie-link'   : 'http://www.callieclayton.com/',
@@ -427,6 +430,7 @@ var bioInfo = {
 	'presenter-TaylorAlarcon-link'      : 'http://www.philosomatician.com/',
 	'presenter-TegaBrain-link'          : 'http://tegabrain.com/',
 	'presenter-ThatcherBean-link'       : 'http://massdesigngroup.org/',
+	'presenter-ThomasThwaites-link'     : 'http://www.thomasthwaites.com/',
 	'presenter-VirgilWong-link'         : 'http://virgilwong.com'
 };
 

@@ -657,10 +657,26 @@ red    - #EF413D
                  url('../images/presenters/ThatcherBean.jpg') no-repeat;
 	background-size: contain;
 }
+#presenter-ThomasThwaites .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/ThomasThwaites.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/ThomasThwaites.jpg') no-repeat;
+	background-size: contain;
+}
 #presenter-VirgilWong .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/presenters/VirgilWong.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/presenters/VirgilWong.jpg') no-repeat;
 	background-size: contain;
+}
+
+#br403 {
+	display: block;
+}
+@media (min-width: 403px) {
+	#br403 {
+		display: none;
+	}
 }
