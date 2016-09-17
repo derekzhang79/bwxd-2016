@@ -63,6 +63,10 @@
 		color: #FFD400;
 		border-bottom: 1px solid #FFD400;
 	}
+	.companyName:hover {
+		color: #FFD400;
+		border-bottom: 1px solid #FFD400;
+	}
 }
 
 .schoolTag {
