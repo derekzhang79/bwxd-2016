@@ -79,7 +79,7 @@ body {
   overflow: visible; 
 position: absolute; 
 	top: 50%;
-    right: 5px;
+    right: 15px;
     transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 }
