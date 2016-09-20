@@ -335,6 +335,13 @@ red    - #EF413D
                  url('../images/presenters/DhairyaPujara.jpg') no-repeat;
 	background-size: contain;
 }
+#presenter-ElizabethWilliams .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/ElizabethWilliams.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/ElizabethWilliams.jpg') no-repeat;
+	background-size: contain;
+}
 #presenter-EllenSu .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/presenters/EllenSu.jpg') no-repeat;
@@ -677,6 +684,14 @@ red    - #EF413D
 }
 @media (min-width: 403px) {
 	#br403 {
+		display: none;
+	}
+}
+#br422 {
+	display: block;
+}
+@media (min-width: 422px) {
+	#br422 {
 		display: none;
 	}
 }
