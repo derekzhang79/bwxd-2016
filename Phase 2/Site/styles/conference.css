@@ -356,6 +356,13 @@ red    - #EF413D
                  url('../images/presenters/EmilyHerrick.jpg') no-repeat;
 	background-size: contain;
 }
+#presenter-EmilyKao .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/EmilyKao.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/EmilyKao.jpg') no-repeat;
+	background-size: contain;
+}
 #presenter-GenaWirth .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/presenters/GenaWirth.jpg') no-repeat;
