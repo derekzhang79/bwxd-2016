@@ -686,19 +686,28 @@ red    - #EF413D
 	background-size: contain;
 }
 
-#br403 {
+.br380 {
 	display: block;
 }
-@media (min-width: 403px) {
-	#br403 {
+@media (min-width: 386px) {
+	.br380 {
 		display: none;
 	}
 }
-#br422 {
+
+.br1200 {
 	display: block;
 }
-@media (min-width: 422px) {
-	#br422 {
+@media (min-width: 1200px) {
+	.br1200 {
+		display: none;
+	}
+}
+.br750 {
+	display: block;
+}
+@media (min-width: 750px) {
+	.br750 {
 		display: none;
 	}
 }
