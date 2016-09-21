@@ -254,3 +254,19 @@ a {
         color: #FFD400;
     }
 }
+
+/*For navbar*/
+.scheduleSmall {
+	display: inline;
+}
+.scheduleLarge {
+	display: none;
+}
+@media (min-width: 680px) {
+	.scheduleSmall {
+		display: none;
+	}
+	.scheduleLarge {
+		display: block;
+	}
+}

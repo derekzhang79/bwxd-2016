@@ -56,7 +56,12 @@ red    - #EF413D
 }
 
 .scheduleDayBuffer {
-	height: 30px;
+/*	height: 30px;*/
+}
+
+.scheduleDay {
+	padding-top: 100px;  
+	margin-top: -70px;
 }
 
 .scheduleDayToggle {
