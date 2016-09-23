@@ -228,6 +228,13 @@ red    - #EF413D
                  url('../images/presenters/AndrewScanlan.jpg') no-repeat;
 	background-size: contain;
 }
+#presenter-AndrewMartinez .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/AndrewMartinez.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/AndrewMartinez.jpg') no-repeat;
+	background-size: contain;
+}
 #presenter-AndyLaw .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/presenters/AndyLaw.jpg') no-repeat;
@@ -387,6 +394,13 @@ red    - #EF413D
                  url('../images/presenters/IanGonsher.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/presenters/IanGonsher.jpg') no-repeat;
+	background-size: contain;
+}
+#presenter-IanAldenRussell .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/presenters/IanAldenRussell.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/presenters/IanAldenRussell.jpg') no-repeat;
 	background-size: contain;
 }
 #presenter-IlonaGaynor .personLink-img {
@@ -706,6 +720,14 @@ red    - #EF413D
 @media (min-width: 1200px) {
 	.br1200 {
 		display: none;
+	}
+}
+.nbr1200 {
+	display: none;
+}
+@media (min-width: 1200px) {
+	.nbr1200 {
+		display: block;
 	}
 }
 .br750 {
