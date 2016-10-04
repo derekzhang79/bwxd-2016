@@ -5,6 +5,45 @@
                  url(../images/banners/connect.jpg) no-repeat;
 }
 
+/**/
+/* Design Challenge */
+/**/
+
+.banner {
+	margin: 30px 0;
+	
+	width: 100vw;
+	position: absolute;
+	left: 0;
+}
+.inlineBanner {
+	margin: 0;
+}
+#underBanner {
+	margin-top: calc(100vw * (460 / 1200) + 60px);
+}
+#underPostits {
+	margin-top: calc(100vw * (3000 / 4000) + 30px);
+}
+#underWorkshop {
+	margin-top: calc(100vw * (3000 / 4000) + 30px);
+}
+
+
+@media (min-width: 1200px) {
+	.banner {
+		width: 100%;
+		position: relative;
+	}
+	#underBanner, #underPostits, #underWorkshop {
+		margin-top: 0px;
+	}
+}
+
+/**/
+/* Contact */
+/**/
+
 .contactLink-img {
 	display: inline-block;
 	line-height: 0px; /*so inline block doesn't add a little extra height*/
