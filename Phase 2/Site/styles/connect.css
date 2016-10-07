@@ -20,13 +20,12 @@
 	margin: 0;
 }
 #underBanner {
+	transition: none;
 	margin-top: calc(100vw * (460 / 1200) + 60px);
 }
-#underPostits {
-	margin-top: calc(100vw * (3000 / 4000) + 30px);
-}
 #underWorkshop {
-	margin-top: calc(100vw * (3000 / 4000) + 30px);
+	transition: none;
+	margin-top: calc(100vw * (3000 / 4000) + 60px);
 }
 
 
@@ -35,8 +34,11 @@
 		width: 100%;
 		position: relative;
 	}
-	#underBanner, #underPostits, #underWorkshop {
+	#underBanner {
 		margin-top: 0px;
+	}
+	#underWorkshop{
+		margin-top: 30px;
 	}
 }
 
